@@ -1,0 +1,1372 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "20TOVD6LOE",
+    "apiKey": "35bc6c51aa322700d1383e17c4f669f4",
+    "indexName": "tanstackquery"
+  },
+  "sections": [
+    {
+      "label": "入门指南",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/react/overview"
+            },
+            {
+              "label": "安装",
+              "to": "framework/react/installation"
+            },
+            {
+              "label": "快速开始",
+              "to": "framework/react/quick-start"
+            },
+            {
+              "label": "开发者工具",
+              "to": "framework/react/devtools"
+            },
+            {
+              "label": "视频与演讲",
+              "to": "framework/react/videos"
+            },
+            {
+              "label": "对比",
+              "to": "framework/react/comparison"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/react/typescript"
+            },
+            {
+              "label": "GraphQL",
+              "to": "framework/react/graphql"
+            },
+            {
+              "label": "React Native",
+              "to": "framework/react/react-native"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/solid/overview"
+            },
+            {
+              "label": "快速开始",
+              "to": "framework/solid/quick-start"
+            },
+            {
+              "label": "安装",
+              "to": "framework/solid/installation"
+            },
+            {
+              "label": "开发者工具",
+              "to": "framework/solid/devtools"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/solid/typescript"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/vue/overview"
+            },
+            {
+              "label": "安装",
+              "to": "framework/vue/installation"
+            },
+            {
+              "label": "快速开始",
+              "to": "framework/vue/quick-start"
+            },
+            {
+              "label": "开发者工具",
+              "to": "framework/vue/devtools"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/vue/typescript"
+            },
+            {
+              "label": "响应式",
+              "to": "framework/vue/reactivity"
+            },
+            {
+              "label": "GraphQL",
+              "to": "framework/vue/graphql"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/svelte/overview"
+            },
+            {
+              "label": "安装",
+              "to": "framework/svelte/installation"
+            },
+            {
+              "label": "开发者工具",
+              "to": "framework/svelte/devtools"
+            },
+            {
+              "label": "SSR 与 SvelteKit",
+              "to": "framework/svelte/ssr"
+            },
+            {
+              "label": "响应式",
+              "to": "framework/svelte/reactivity"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/angular/overview"
+            },
+            {
+              "label": "安装",
+              "to": "framework/angular/installation"
+            },
+            {
+              "label": "快速开始",
+              "to": "framework/angular/quick-start"
+            },
+            {
+              "label": "Angular HttpClient 及其他数据获取客户端",
+              "to": "framework/angular/angular-httpclient-and-other-data-fetching-clients"
+            },
+            {
+              "label": "开发者工具",
+              "to": "framework/angular/devtools"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/angular/typescript"
+            },
+            {
+              "label": "无 Zone",
+              "to": "framework/angular/zoneless"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "指南与概念",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "重要默认设置",
+              "to": "framework/react/guides/important-defaults"
+            },
+            {
+              "label": "查询",
+              "to": "framework/react/guides/queries"
+            },
+            {
+              "label": "查询键",
+              "to": "framework/react/guides/query-keys"
+            },
+            {
+              "label": "查询函数",
+              "to": "framework/react/guides/query-functions"
+            },
+            {
+              "label": "查询选项",
+              "to": "framework/react/guides/query-options"
+            },
+            {
+              "label": "网络模式",
+              "to": "framework/react/guides/network-mode"
+            },
+            {
+              "label": "并行查询",
+              "to": "framework/react/guides/parallel-queries"
+            },
+            {
+              "label": "依赖查询",
+              "to": "framework/react/guides/dependent-queries"
+            },
+            {
+              "label": "后台获取指示器",
+              "to": "framework/react/guides/background-fetching-indicators"
+            },
+            {
+              "label": "窗口焦点重新获取",
+              "to": "framework/react/guides/window-focus-refetching"
+            },
+            {
+              "label": "禁用/暂停查询",
+              "to": "framework/react/guides/disabling-queries"
+            },
+            {
+              "label": "查询重试",
+              "to": "framework/react/guides/query-retries"
+            },
+            {
+              "label": "分页查询",
+              "to": "framework/react/guides/paginated-queries"
+            },
+            {
+              "label": "无限查询",
+              "to": "framework/react/guides/infinite-queries"
+            },
+            {
+              "label": "初始查询数据",
+              "to": "framework/react/guides/initial-query-data"
+            },
+            {
+              "label": "占位查询数据",
+              "to": "framework/react/guides/placeholder-query-data"
+            },
+            {
+              "label": "变更",
+              "to": "framework/react/guides/mutations"
+            },
+            {
+              "label": "查询失效",
+              "to": "framework/react/guides/query-invalidation"
+            },
+            {
+              "label": "从变更中失效",
+              "to": "framework/react/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "从变更响应中更新",
+              "to": "framework/react/guides/updates-from-mutation-responses"
+            },
+            {
+              "label": "乐观更新",
+              "to": "framework/react/guides/optimistic-updates"
+            },
+            {
+              "label": "查询取消",
+              "to": "framework/react/guides/query-cancellation"
+            },
+            {
+              "label": "滚动恢复",
+              "to": "framework/react/guides/scroll-restoration"
+            },
+            {
+              "label": "过滤器",
+              "to": "framework/react/guides/filters"
+            },
+            {
+              "label": "性能与请求瀑布流",
+              "to": "framework/react/guides/request-waterfalls"
+            },
+            {
+              "label": "预获取与路由集成",
+              "to": "framework/react/guides/prefetching"
+            },
+            {
+              "label": "服务端渲染与注水",
+              "to": "framework/react/guides/ssr"
+            },
+            {
+              "label": "高级服务端渲染",
+              "to": "framework/react/guides/advanced-ssr"
+            },
+            {
+              "label": "缓存",
+              "to": "framework/react/guides/caching"
+            },
+            {
+              "label": "渲染优化",
+              "to": "framework/react/guides/render-optimizations"
+            },
+            {
+              "label": "默认查询函数",
+              "to": "framework/react/guides/default-query-function"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/react/guides/suspense"
+            },
+            {
+              "label": "测试",
+              "to": "framework/react/guides/testing"
+            },
+            {
+              "label": "这会取代 [Redux, MobX 等] 吗？",
+              "to": "framework/react/guides/does-this-replace-client-state"
+            },
+            {
+              "label": "迁移到 v3",
+              "to": "framework/react/guides/migrating-to-react-query-3"
+            },
+            {
+              "label": "迁移到 v4",
+              "to": "framework/react/guides/migrating-to-react-query-4"
+            },
+            {
+              "label": "迁移到 v5",
+              "to": "framework/react/guides/migrating-to-v5"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "重要默认设置",
+              "to": "framework/solid/guides/important-defaults"
+            },
+            {
+              "label": "查询",
+              "to": "framework/solid/guides/queries"
+            },
+            {
+              "label": "查询键",
+              "to": "framework/solid/guides/query-keys"
+            },
+            {
+              "label": "查询函数",
+              "to": "framework/solid/guides/query-functions"
+            },
+            {
+              "label": "查询选项",
+              "to": "framework/solid/guides/query-options"
+            },
+            {
+              "label": "网络模式",
+              "to": "framework/solid/guides/network-mode"
+            },
+            {
+              "label": "并行查询",
+              "to": "framework/solid/guides/parallel-queries"
+            },
+            {
+              "label": "依赖查询",
+              "to": "framework/solid/guides/dependent-queries"
+            },
+            {
+              "label": "后台获取指示器",
+              "to": "framework/solid/guides/background-fetching-indicators"
+            },
+            {
+              "label": "窗口焦点重新获取",
+              "to": "framework/solid/guides/window-focus-refetching"
+            },
+            {
+              "label": "禁用/暂停查询",
+              "to": "framework/solid/guides/disabling-queries"
+            },
+            {
+              "label": "查询重试",
+              "to": "framework/solid/guides/query-retries"
+            },
+            {
+              "label": "分页查询",
+              "to": "framework/solid/guides/paginated-queries"
+            },
+            {
+              "label": "无限查询",
+              "to": "framework/solid/guides/infinite-queries"
+            },
+            {
+              "label": "初始查询数据",
+              "to": "framework/solid/guides/initial-query-data"
+            },
+            {
+              "label": "占位查询数据",
+              "to": "framework/solid/guides/placeholder-query-data"
+            },
+            {
+              "label": "变更",
+              "to": "framework/solid/guides/mutations"
+            },
+            {
+              "label": "查询失效",
+              "to": "framework/solid/guides/query-invalidation"
+            },
+            {
+              "label": "从变更中失效",
+              "to": "framework/solid/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "从变更响应中更新",
+              "to": "framework/solid/guides/updates-from-mutation-responses"
+            },
+            {
+              "label": "乐观更新",
+              "to": "framework/solid/guides/optimistic-updates"
+            },
+            {
+              "label": "查询取消",
+              "to": "framework/solid/guides/query-cancellation"
+            },
+            {
+              "label": "滚动恢复",
+              "to": "framework/solid/guides/scroll-restoration"
+            },
+            {
+              "label": "过滤器",
+              "to": "framework/solid/guides/filters"
+            },
+            {
+              "label": "请求瀑布流",
+              "to": "framework/solid/guides/request-waterfalls"
+            },
+            {
+              "label": "预获取",
+              "to": "framework/solid/guides/prefetching"
+            },
+            {
+              "label": "SSR",
+              "to": "framework/solid/guides/ssr"
+            },
+            {
+              "label": "高级 SSR",
+              "to": "framework/solid/guides/advanced-ssr"
+            },
+            {
+              "label": "缓存",
+              "to": "framework/solid/guides/caching"
+            },
+            {
+              "label": "默认查询函数",
+              "to": "framework/solid/guides/default-query-function"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/solid/guides/suspense"
+            },
+            {
+              "label": "测试",
+              "to": "framework/solid/guides/testing"
+            },
+            {
+              "label": "这会取代状态管理器吗？",
+              "to": "framework/angular/guides/does-this-replace-client-state"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "重要默认设置",
+              "to": "framework/vue/guides/important-defaults"
+            },
+            {
+              "label": "查询",
+              "to": "framework/vue/guides/queries"
+            },
+            {
+              "label": "查询键",
+              "to": "framework/vue/guides/query-keys"
+            },
+            {
+              "label": "查询函数",
+              "to": "framework/vue/guides/query-functions"
+            },
+            {
+              "label": "查询选项",
+              "to": "framework/vue/guides/query-options"
+            },
+            {
+              "label": "网络模式",
+              "to": "framework/vue/guides/network-mode"
+            },
+            {
+              "label": "并行查询",
+              "to": "framework/vue/guides/parallel-queries"
+            },
+            {
+              "label": "依赖查询",
+              "to": "framework/vue/guides/dependent-queries"
+            },
+            {
+              "label": "后台获取指示器",
+              "to": "framework/vue/guides/background-fetching-indicators"
+            },
+            {
+              "label": "窗口焦点重新获取",
+              "to": "framework/vue/guides/window-focus-refetching"
+            },
+            {
+              "label": "禁用/暂停查询",
+              "to": "framework/vue/guides/disabling-queries"
+            },
+            {
+              "label": "查询重试",
+              "to": "framework/vue/guides/query-retries"
+            },
+            {
+              "label": "分页查询",
+              "to": "framework/vue/guides/paginated-queries"
+            },
+            {
+              "label": "无限查询",
+              "to": "framework/vue/guides/infinite-queries"
+            },
+            {
+              "label": "初始查询数据",
+              "to": "framework/vue/guides/initial-query-data"
+            },
+            {
+              "label": "占位查询数据",
+              "to": "framework/vue/guides/placeholder-query-data"
+            },
+            {
+              "label": "变更",
+              "to": "framework/vue/guides/mutations"
+            },
+            {
+              "label": "查询失效",
+              "to": "framework/vue/guides/query-invalidation"
+            },
+            {
+              "label": "从变更中失效",
+              "to": "framework/vue/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "从变更响应中更新",
+              "to": "framework/vue/guides/updates-from-mutation-responses"
+            },
+            {
+              "label": "乐观更新",
+              "to": "framework/vue/guides/optimistic-updates"
+            },
+            {
+              "label": "查询取消",
+              "to": "framework/vue/guides/query-cancellation"
+            },
+            {
+              "label": "滚动恢复",
+              "to": "framework/vue/guides/scroll-restoration"
+            },
+            {
+              "label": "过滤器",
+              "to": "framework/vue/guides/filters"
+            },
+            {
+              "label": "预获取",
+              "to": "framework/vue/guides/prefetching"
+            },
+            {
+              "label": "SSR 与 Nuxt",
+              "to": "framework/vue/guides/ssr"
+            },
+            {
+              "label": "缓存",
+              "to": "framework/vue/guides/caching"
+            },
+            {
+              "label": "默认查询函数",
+              "to": "framework/vue/guides/default-query-function"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/vue/guides/suspense"
+            },
+            {
+              "label": "测试",
+              "to": "framework/vue/guides/testing"
+            },
+            {
+              "label": "自定义客户端",
+              "to": "framework/vue/guides/custom-client"
+            },
+            {
+              "label": "这会取代 [Vuex, Pinia] 吗？",
+              "to": "framework/vue/guides/does-this-replace-client-state"
+            },
+            {
+              "label": "迁移到 v5",
+              "to": "framework/vue/guides/migrating-to-v5"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "重要默认设置",
+              "to": "framework/angular/guides/important-defaults"
+            },
+            {
+              "label": "查询",
+              "to": "framework/angular/guides/queries"
+            },
+            {
+              "label": "查询键",
+              "to": "framework/angular/guides/query-keys"
+            },
+            {
+              "label": "查询函数",
+              "to": "framework/angular/guides/query-functions"
+            },
+            {
+              "label": "查询选项",
+              "to": "framework/angular/guides/query-options"
+            },
+            {
+              "label": "网络模式",
+              "to": "framework/angular/guides/network-mode"
+            },
+            {
+              "label": "并行查询",
+              "to": "framework/angular/guides/parallel-queries"
+            },
+            {
+              "label": "依赖查询",
+              "to": "framework/angular/guides/dependent-queries"
+            },
+            {
+              "label": "后台获取指示器",
+              "to": "framework/angular/guides/background-fetching-indicators"
+            },
+            {
+              "label": "窗口焦点重新获取",
+              "to": "framework/angular/guides/window-focus-refetching"
+            },
+            {
+              "label": "禁用/暂停查询",
+              "to": "framework/angular/guides/disabling-queries"
+            },
+            {
+              "label": "查询重试",
+              "to": "framework/angular/guides/query-retries"
+            },
+            {
+              "label": "分页查询",
+              "to": "framework/angular/guides/paginated-queries"
+            },
+            {
+              "label": "无限查询",
+              "to": "framework/angular/guides/infinite-queries"
+            },
+            {
+              "label": "初始查询数据",
+              "to": "framework/angular/guides/initial-query-data"
+            },
+            {
+              "label": "占位查询数据",
+              "to": "framework/angular/guides/placeholder-query-data"
+            },
+            {
+              "label": "变更",
+              "to": "framework/angular/guides/mutations"
+            },
+            {
+              "label": "变更选项",
+              "to": "framework/angular/guides/mutation-options"
+            },
+            {
+              "label": "查询失效",
+              "to": "framework/angular/guides/query-invalidation"
+            },
+            {
+              "label": "从变更中失效",
+              "to": "framework/angular/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "乐观更新",
+              "to": "framework/angular/guides/optimistic-updates"
+            },
+            {
+              "label": "查询取消",
+              "to": "framework/angular/guides/query-cancellation"
+            },
+            {
+              "label": "滚动恢复",
+              "to": "framework/angular/guides/scroll-restoration"
+            },
+            {
+              "label": "过滤器",
+              "to": "framework/angular/guides/filters"
+            },
+            {
+              "label": "缓存",
+              "to": "framework/angular/guides/caching"
+            },
+            {
+              "label": "默认查询函数",
+              "to": "framework/angular/guides/default-query-function"
+            },
+            {
+              "label": "这会取代状态管理器吗？",
+              "to": "framework/angular/guides/does-this-replace-client-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "API 参考",
+      "children": [
+        {
+          "label": "QueryClient",
+          "to": "reference/QueryClient"
+        },
+        {
+          "label": "QueryCache",
+          "to": "reference/QueryCache"
+        },
+        {
+          "label": "MutationCache",
+          "to": "reference/MutationCache"
+        },
+        {
+          "label": "QueryObserver",
+          "to": "reference/QueryObserver"
+        },
+        {
+          "label": "InfiniteQueryObserver",
+          "to": "reference/InfiniteQueryObserver"
+        },
+        {
+          "label": "QueriesObserver",
+          "to": "reference/QueriesObserver"
+        },
+        {
+          "label": "streamedQuery",
+          "to": "reference/streamedQuery"
+        },
+        {
+          "label": "focusManager",
+          "to": "reference/focusManager"
+        },
+        {
+          "label": "onlineManager",
+          "to": "reference/onlineManager"
+        },
+        {
+          "label": "notifyManager",
+          "to": "reference/notifyManager"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "useQuery",
+              "to": "framework/react/reference/useQuery"
+            },
+            {
+              "label": "useQueries",
+              "to": "framework/react/reference/useQueries"
+            },
+            {
+              "label": "useInfiniteQuery",
+              "to": "framework/react/reference/useInfiniteQuery"
+            },
+            {
+              "label": "useMutation",
+              "to": "framework/react/reference/useMutation"
+            },
+            {
+              "label": "useIsFetching",
+              "to": "framework/react/reference/useIsFetching"
+            },
+            {
+              "label": "useIsMutating",
+              "to": "framework/react/reference/useIsMutating"
+            },
+            {
+              "label": "useMutationState",
+              "to": "framework/react/reference/useMutationState"
+            },
+            {
+              "label": "useSuspenseQuery",
+              "to": "framework/react/reference/useSuspenseQuery"
+            },
+            {
+              "label": "useSuspenseInfiniteQuery",
+              "to": "framework/react/reference/useSuspenseInfiniteQuery"
+            },
+            {
+              "label": "useSuspenseQueries",
+              "to": "framework/react/reference/useSuspenseQueries"
+            },
+            {
+              "label": "QueryClientProvider",
+              "to": "framework/react/reference/QueryClientProvider"
+            },
+            {
+              "label": "useQueryClient",
+              "to": "framework/react/reference/useQueryClient"
+            },
+            {
+              "label": "queryOptions",
+              "to": "framework/react/reference/queryOptions"
+            },
+            {
+              "label": "infiniteQueryOptions",
+              "to": "framework/react/reference/infiniteQueryOptions"
+            },
+            {
+              "label": "usePrefetchQuery",
+              "to": "framework/react/reference/usePrefetchQuery"
+            },
+            {
+              "label": "usePrefetchInfiniteQuery",
+              "to": "framework/react/reference/usePrefetchInfiniteQuery"
+            },
+            {
+              "label": "QueryErrorResetBoundary",
+              "to": "framework/react/reference/QueryErrorResetBoundary"
+            },
+            {
+              "label": "useQueryErrorResetBoundary",
+              "to": "framework/react/reference/useQueryErrorResetBoundary"
+            },
+            {
+              "label": "注水",
+              "to": "framework/react/reference/hydration"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "useQuery",
+              "to": "framework/vue/reference/useQuery"
+            },
+            {
+              "label": "useQueries",
+              "to": "framework/vue/reference/useQueries"
+            },
+            {
+              "label": "useInfiniteQuery",
+              "to": "framework/vue/reference/useInfiniteQuery"
+            },
+            {
+              "label": "useMutation",
+              "to": "framework/vue/reference/useMutation"
+            },
+            {
+              "label": "useIsFetching",
+              "to": "framework/vue/reference/useIsFetching"
+            },
+            {
+              "label": "useIsMutating",
+              "to": "framework/vue/reference/useIsMutating"
+            },
+            {
+              "label": "useMutationState",
+              "to": "framework/vue/reference/useMutationState"
+            },
+            {
+              "label": "useQueryClient",
+              "to": "framework/vue/reference/useQueryClient"
+            },
+            {
+              "label": "queryOptions",
+              "to": "framework/vue/reference/queryOptions"
+            },
+            {
+              "label": "infiniteQueryOptions",
+              "to": "framework/vue/reference/infiniteQueryOptions"
+            },
+            {
+              "label": "注水",
+              "to": "framework/vue/reference/hydration"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "useQuery",
+              "to": "framework/solid/reference/useQuery"
+            },
+            {
+              "label": "useQueries",
+              "to": "framework/solid/reference/useQueries"
+            },
+            {
+              "label": "useInfiniteQuery",
+              "to": "framework/solid/reference/useInfiniteQuery"
+            },
+            {
+              "label": "useMutation",
+              "to": "framework/solid/reference/useMutation"
+            },
+            {
+              "label": "useIsFetching",
+              "to": "framework/solid/reference/useIsFetching"
+            },
+            {
+              "label": "useIsMutating",
+              "to": "framework/solid/reference/useIsMutating"
+            },
+            {
+              "label": "useMutationState",
+              "to": "framework/solid/reference/useMutationState"
+            },
+            {
+              "label": "queryOptions",
+              "to": "framework/solid/reference/queryOptions"
+            },
+            {
+              "label": "infiniteQueryOptions",
+              "to": "framework/solid/reference/infiniteQueryOptions"
+            },
+            {
+              "label": "注水",
+              "to": "framework/solid/reference/hydration"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Svelte 参考",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "函数 / createQuery",
+              "to": "framework/svelte/reference/functions/createquery"
+            },
+            {
+              "label": "函数 / createMutation",
+              "to": "framework/svelte/reference/functions/createmutation"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Angular 参考",
+              "to": "framework/angular/reference/index"
+            },
+            {
+              "label": "函数 / injectQuery",
+              "to": "framework/angular/reference/functions/injectquery"
+            },
+            {
+              "label": "函数 / injectMutation",
+              "to": "framework/angular/reference/functions/injectmutation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "ESLint",
+      "children": [
+        {
+          "label": "ESLint 插件 Query",
+          "to": "eslint/eslint-plugin-query"
+        },
+        {
+          "label": "彻底依赖检查",
+          "to": "eslint/exhaustive-deps"
+        },
+        {
+          "label": "稳定的 Query Client",
+          "to": "eslint/stable-query-client"
+        },
+        {
+          "label": "禁止剩余解构",
+          "to": "eslint/no-rest-destructuring"
+        },
+        {
+          "label": "禁止不稳定依赖",
+          "to": "eslint/no-unstable-deps"
+        },
+        {
+          "label": "无限查询属性顺序",
+          "to": "eslint/infinite-query-property-order"
+        }
+      ]
+    },
+    {
+      "label": "社区资源",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "TkDodo 的博客",
+              "to": "framework/react/community/tkdodos-blog"
+            },
+            {
+              "label": "社区项目",
+              "to": "framework/react/community/community-projects"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "TkDodo 的博客",
+              "to": "framework/solid/community/tkdodos-blog"
+            },
+            {
+              "label": "社区项目",
+              "to": "framework/solid/community/community-projects"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "TkDodo 的博客",
+              "to": "framework/vue/community/tkdodos-blog"
+            },
+            {
+              "label": "社区项目",
+              "to": "framework/vue/community/community-projects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "示例",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "简单示例",
+              "to": "framework/react/examples/simple"
+            },
+            {
+              "label": "基础示例",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "基础示例 (GraphQL-Request)",
+              "to": "framework/react/examples/basic-graphql-request"
+            },
+            {
+              "label": "自动重新获取/轮询/实时",
+              "to": "framework/react/examples/auto-refetching"
+            },
+            {
+              "label": "乐观更新 (UI)",
+              "to": "framework/react/examples/optimistic-updates-ui"
+            },
+            {
+              "label": "乐观更新 (缓存)",
+              "to": "framework/react/examples/optimistic-updates-cache"
+            },
+            {
+              "label": "分页",
+              "to": "framework/react/examples/pagination"
+            },
+            {
+              "label": "加载更多与无限滚动",
+              "to": "framework/react/examples/load-more-infinite-scroll"
+            },
+            {
+              "label": "带最大页数的无限查询",
+              "to": "framework/react/examples/infinite-query-with-max-pages"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/react/examples/suspense"
+            },
+            {
+              "label": "默认查询函数",
+              "to": "framework/react/examples/default-query-function"
+            },
+            {
+              "label": "演练场",
+              "to": "framework/react/examples/playground"
+            },
+            {
+              "label": "预获取",
+              "to": "framework/react/examples/prefetching"
+            },
+            {
+              "label": "星球大战",
+              "to": "framework/react/examples/star-wars"
+            },
+            {
+              "label": "瑞克和莫蒂",
+              "to": "framework/react/examples/rick-morty"
+            },
+            {
+              "label": "Next.js 页面",
+              "to": "framework/react/examples/nextjs"
+            },
+            {
+              "label": "带预获取的 Next.js 应用",
+              "to": "framework/react/examples/nextjs-app-prefetching"
+            },
+            {
+              "label": "带流式渲染的 Next.js 应用",
+              "to": "framework/react/examples/nextjs-suspense-streaming"
+            },
+            {
+              "label": "React Native",
+              "to": "framework/react/examples/react-native"
+            },
+            {
+              "label": "React Router",
+              "to": "framework/react/examples/react-router"
+            },
+            {
+              "label": "离线查询与变更",
+              "to": "framework/react/examples/offline"
+            },
+            {
+              "label": "Algolia",
+              "to": "framework/react/examples/algolia"
+            },
+            {
+              "label": "Shadow DOM",
+              "to": "framework/react/examples/shadow-dom"
+            },
+            {
+              "label": "开发者工具内嵌面板",
+              "to": "framework/react/examples/devtools-panel"
+            },
+            {
+              "label": "聊天示例 (流式)",
+              "to": "framework/react/examples/chat"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "简单示例",
+              "to": "framework/solid/examples/simple"
+            },
+            {
+              "label": "基础示例",
+              "to": "framework/solid/examples/basic"
+            },
+            {
+              "label": "基础示例 (GraphQL-Request)",
+              "to": "framework/solid/examples/basic-graphql-request"
+            },
+            {
+              "label": "默认查询函数",
+              "to": "framework/solid/examples/default-query-function"
+            },
+            {
+              "label": "Solid Start",
+              "to": "framework/solid/examples/solid-start-streaming"
+            },
+            {
+              "label": "Astro",
+              "to": "framework/solid/examples/astro"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "基础示例",
+              "to": "framework/vue/examples/basic"
+            },
+            {
+              "label": "Vue 2.6",
+              "to": "framework/vue/examples/2.6-basic"
+            },
+            {
+              "label": "Nuxt 3",
+              "to": "framework/vue/examples/nuxt3"
+            },
+            {
+              "label": "持久化",
+              "to": "framework/vue/examples/persister"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "简单示例",
+              "to": "framework/svelte/examples/simple"
+            },
+            {
+              "label": "基础示例",
+              "to": "framework/svelte/examples/basic"
+            },
+            {
+              "label": "自动重新获取/轮询/实时",
+              "to": "framework/svelte/examples/auto-refetching"
+            },
+            {
+              "label": "SSR",
+              "to": "framework/svelte/examples/ssr"
+            },
+            {
+              "label": "乐观更新",
+              "to": "framework/svelte/examples/optimistic-updates"
+            },
+            {
+              "label": "演练场",
+              "to": "framework/svelte/examples/playground"
+            },
+            {
+              "label": "星球大战",
+              "to": "framework/svelte/examples/star-wars"
+            },
+            {
+              "label": "无限查询",
+              "to": "framework/svelte/examples/load-more-infinite-scroll"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "简单示例",
+              "to": "framework/angular/examples/simple"
+            },
+            {
+              "label": "基础示例",
+              "to": "framework/angular/examples/basic"
+            },
+            {
+              "label": "自动重新获取/轮询/实时",
+              "to": "framework/angular/examples/auto-refetching"
+            },
+            {
+              "label": "乐观更新",
+              "to": "framework/angular/examples/optimistic-updates"
+            },
+            {
+              "label": "分页",
+              "to": "framework/angular/examples/pagination"
+            },
+            {
+              "label": "带最大页数的无限查询",
+              "to": "framework/angular/examples/infinite-query-with-max-pages"
+            },
+            {
+              "label": "Angular 路由",
+              "to": "framework/angular/examples/router"
+            },
+            {
+              "label": "RxJS 自动补全",
+              "to": "framework/angular/examples/rxjs"
+            },
+            {
+              "label": "从服务获取查询选项",
+              "to": "framework/angular/examples/query-options-from-a-service"
+            },
+            {
+              "label": "开发者工具内嵌面板",
+              "to": "framework/angular/examples/devtools-panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "插件",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "persistQueryClient",
+              "to": "framework/react/plugins/persistQueryClient"
+            },
+            {
+              "label": "createSyncStoragePersister",
+              "to": "framework/react/plugins/createSyncStoragePersister"
+            },
+            {
+              "label": "createAsyncStoragePersister",
+              "to": "framework/react/plugins/createAsyncStoragePersister"
+            },
+            {
+              "label": "broadcastQueryClient (实验性)",
+              "to": "framework/react/plugins/broadcastQueryClient"
+            },
+            {
+              "label": "createPersister (实验性)",
+              "to": "framework/react/plugins/createPersister"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "broadcastQueryClient (实验性)",
+              "to": "framework/solid/plugins/broadcastQueryClient"
+            },
+            {
+              "label": "createPersister (实验性)",
+              "to": "framework/solid/plugins/createPersister"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "broadcastQueryClient (实验性)",
+              "to": "framework/vue/plugins/broadcastQueryClient"
+            },
+            {
+              "label": "createPersister (实验性)",
+              "to": "framework/vue/plugins/createPersister"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    "Google",
+    "Walmart",
+    "Facebook",
+    "PayPal",
+    "Amazon",
+    "American Express",
+    "Microsoft",
+    "Target",
+    "Ebay",
+    "Autodesk",
+    "CarFAX",
+    "Docusign",
+    "HP",
+    "MLB",
+    "Volvo",
+    "Ocado",
+    "UPC.ch",
+    "EFI.com",
+    "ReactBricks",
+    "Nozzle.io",
+    "Uber"
+  ]
+}
