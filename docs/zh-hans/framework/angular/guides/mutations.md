@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:02:49.197Z'
 id: mutations
 title: 变更
 ---
+
 与查询 (query) 不同，变更 (mutation) 通常用于创建/更新/删除数据或执行服务端副作用。为此，TanStack Query 导出了 `injectMutation` 函数。
 
 以下是一个向服务器添加新待办事项的变更示例：
@@ -122,10 +123,10 @@ mutation = injectMutation(() => ({
 mutation = injectMutation(() => ({
   mutationFn: addTodo,
   onSuccess: async () => {
-    console.log("我先执行！")
+    console.log('我先执行！')
   },
   onSettled: async () => {
-    console.log("我第二个执行！")
+    console.log('我第二个执行！')
   },
 }))
 ```

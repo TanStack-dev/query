@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:40:23.130Z'
 id: infiniteQueryOptions
 title: infiniteQueryOptions
 ---
+
 ```tsx
 infiniteQueryOptions({
   queryKey,

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:51:31.172Z'
 id: overview
 title: 概述
 ---
+
 > 重要提示：该库目前处于实验阶段。这意味着在次要版本和补丁版本中可能会出现破坏性变更。升级时请谨慎操作。如果您在生产环境中使用此实验阶段的库，请将版本锁定到具体的补丁版本以避免意外的破坏性变更。
 
 `@tanstack/angular-query-experimental` 包为通过 Angular 使用 TanStack Query 提供了一流的 API。

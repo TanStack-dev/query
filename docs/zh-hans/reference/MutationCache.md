@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:51:33.721Z'
 id: MutationCache
 title: MutationCache
 ---
+
 `MutationCache` 是用于存储变更 (mutations) 的容器。
 
 **通常情况下，您不会直接与 MutationCache 交互，而是通过 `QueryClient` 进行操作。**

@@ -4,12 +4,14 @@ translation-updated-at: '2025-05-06T04:25:35.500Z'
 id: react-native
 title: React Native
 ---
+
 React Query 设计上可直接在 React Native 中开箱使用，但目前开发工具（devtools）仅支持 React DOM。
 
 您可以尝试以下第三方插件：
-- [Expo](https://docs.expo.dev/) 插件：https://github.com/expo/dev-plugins/tree/main/packages/react-query  
-- [Flipper](https://fbflipper.com/docs/getting-started/react-native/) 插件：https://github.com/bgaleotti/react-query-native-devtools  
-- [Reactotron](https://github.com/infinitered/reactotron/) 插件：https://github.com/hsndmr/reactotron-react-query  
+
+- [Expo](https://docs.expo.dev/) 插件：https://github.com/expo/dev-plugins/tree/main/packages/react-query
+- [Flipper](https://fbflipper.com/docs/getting-started/react-native/) 插件：https://github.com/bgaleotti/react-query-native-devtools
+- [Reactotron](https://github.com/infinitered/reactotron/) 插件：https://github.com/hsndmr/reactotron-react-query
 
 若您愿意协助我们开发跨平台的内置开发工具，欢迎随时联系！
 

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:30:39.298Z'
 id: overview
 title: 概述
 ---
+
 TanStack Query（曾用名 Vue Query）常被称作 Web 应用缺失的数据获取库，用更专业的术语来说，它能让你在 Web 应用中轻松实现**获取、缓存、同步和更新服务端状态 (server state)**。
 
 ## 动机
@@ -32,7 +33,7 @@ TanStack Query（曾用名 Vue Query）常被称作 Web 应用缺失的数据获
 
 TanStack Query 无疑是管理服务端状态的最佳库之一。它具备**开箱即用的零配置体验**，并能随着应用增长按需定制。
 
-TanStack Query 让你能攻克_服务端状态_的棘手难题，在数据反客为主之前掌控全局。
+TanStack Query 让你能攻克*服务端状态*的棘手难题，在数据反客为主之前掌控全局。
 
 从技术角度而言，TanStack Query 能：
 

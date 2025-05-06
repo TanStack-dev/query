@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:38:43.637Z'
 id: useMutation
 title: useMutation
 ---
+
 ```tsx
 const {
   data,

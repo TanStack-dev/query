@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/reference/useIsMutating.md
 replace:
   '@tanstack/react-query': '@tanstack/solid-query'
 ---
-

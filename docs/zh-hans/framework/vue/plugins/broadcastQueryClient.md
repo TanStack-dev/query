@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/plugins/broadcastQueryClient.md
 replace:
   react-query: vue-query
 ---
-

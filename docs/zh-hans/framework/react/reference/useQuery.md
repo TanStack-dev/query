@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:35:52.836Z'
 id: useQuery
 title: useQuery
 ---
+
 ```tsx
 const {
   data,

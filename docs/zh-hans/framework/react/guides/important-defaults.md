@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:12:55.170Z'
 id: important-defaults
 title: 重要默认设置
 ---
+
 开箱即用，TanStack Query 采用了**激进但合理**的默认配置。**这些默认设置有时会让新用户措手不及，如果用户不了解它们，可能会增加学习或调试的难度。**在继续学习和使用 TanStack Query 时，请牢记以下要点：
 
 - 通过 `useQuery` 或 `useInfiniteQuery` 创建的查询实例默认**将缓存数据视为过时数据**。

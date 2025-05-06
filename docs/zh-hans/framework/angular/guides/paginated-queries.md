@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:59:52.176Z'
 id: paginated-queries
 title: 分页查询
 ---
+
 分页渲染数据是一种非常常见的 UI 模式，在 TanStack Query 中，只需将页码信息包含在查询键 (query key) 中即可实现：
 
 ```ts

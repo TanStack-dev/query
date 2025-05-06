@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:12:25.239Z'
 id: optimistic-updates
 title: 乐观更新
 ---
+
 React Query 提供了两种在变更操作完成前乐观更新 UI 的方式。你可以直接使用 `onMutate` 选项更新缓存，或者利用 `useMutation` 返回的 `variables` 来更新 UI。
 
 ## 通过 UI 更新

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:19:16.449Z'
 id: typescript
 title: TypeScript
 ---
+
 Solid Query 采用 **TypeScript** 编写，以确保库和您的项目具备类型安全！
 
 注意事项：

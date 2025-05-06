@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:33:32.399Z'
 id: useQueryClient
 title: useQueryClient
 ---
+
 `useQueryClient` 钩子返回当前的 `QueryClient` 实例。
 
 ```tsx

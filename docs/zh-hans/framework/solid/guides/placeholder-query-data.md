@@ -14,4 +14,3 @@ replace:
   'useInfiniteQuery[(]': 'useInfiniteQuery(() => '
   useMemo: createMemo
 ---
-

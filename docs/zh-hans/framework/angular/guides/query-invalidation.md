@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:53:07.857Z'
 id: query-invalidation
 title: 查询失效
 ---
+
 等待查询自动变陈旧（stale）后再重新获取并不总是适用，尤其是当用户操作明确导致某查询数据过期时。为此，`QueryClient` 提供了 `invalidateQueries` 方法，允许您智能地标记查询为陈旧状态，并可能触发重新获取！
 
 ```tsx

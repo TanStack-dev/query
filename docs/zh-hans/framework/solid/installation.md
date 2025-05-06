@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:16:47.879Z'
 id: installation
 title: 安装
 ---
+
 # 安装
 
 你可以通过 [NPM](https://npmjs.com/) 安装 Solid Query，或者通过 [ESM.sh](https://esm.sh/) 使用传统的 `<script>` 标签引入。

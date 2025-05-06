@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:40:03.526Z'
 id: useInfiniteQuery
 title: useInfiniteQuery
 ---
+
 ```tsx
 const {
   fetchNextPage,

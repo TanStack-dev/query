@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:55:32.417Z'
 id: InfiniteQueryObserver
 title: InfiniteQueryObserver
 ---
+
 ## `InfiniteQueryObserver`
 
 `InfiniteQueryObserver` 可用于观察和切换无限查询 (infinite queries)。

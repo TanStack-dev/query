@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:09:46.316Z'
 id: query-functions
 title: 查询函数
 ---
+
 # 查询函数 (Query Functions)
 
 查询函数可以是**任何返回 Promise 的函数**。返回的 Promise 应当**解析数据 (resolve the data)** 或**抛出错误 (throw an error)**。

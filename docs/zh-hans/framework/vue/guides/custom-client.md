@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T16:13:50.563Z'
 id: custom-client
 title: 自定义客户端
 ---
+
 ### 自定义客户端 (Custom client)
 
 Vue Query 允许为 Vue 上下文提供自定义的 `QueryClient`。

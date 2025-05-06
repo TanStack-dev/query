@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:45:26.192Z'
 id: createPersister
 title: createPersister (实验性)
 ---
+
 ## 安装
 
 该工具作为一个独立包提供，可通过 `'@tanstack/query-persist-client-core'` 导入使用。

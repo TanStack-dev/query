@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:31:54.871Z'
 id: createPersister
 title: createPersister (实验性)
 ---
+
 ## 安装
 
 该工具作为一个独立包提供，可通过 `'@tanstack/query-persist-client-core'` 导入使用。
@@ -32,14 +33,14 @@ bun add @tanstack/query-persist-client-core
 
 ## 使用方式
 
-- 导入 `experimental_createPersister` 函数  
+- 导入 `experimental_createPersister` 函数
 - 创建一个新的 `experimental_createPersister`
-  - 可传入任何符合 `AsyncStorage` 或 `Storage` 接口的 `storage` 对象  
+  - 可传入任何符合 `AsyncStorage` 或 `Storage` 接口的 `storage` 对象
 - 将该 `persister` 作为选项传递给 Query。可通过两种方式实现：
-  - 传递给 `QueryClient` 的 `defaultOptions`  
-  - 或传递给任意 `useQuery` 钩子实例  
-  - 若作为 `defaultOptions` 传递，所有查询将被持久化到指定的 `storage`。还可通过 `filters` 进一步筛选。与 `persistClient` 插件不同，此方式不会将整个 QueryClient 作为单个条目持久化，而是分别持久化每个查询，并使用查询哈希 (query hash) 作为键名  
-  - 若提供给单个 `useQuery` 钩子，则仅该查询会被持久化  
+  - 传递给 `QueryClient` 的 `defaultOptions`
+  - 或传递给任意 `useQuery` 钩子实例
+  - 若作为 `defaultOptions` 传递，所有查询将被持久化到指定的 `storage`。还可通过 `filters` 进一步筛选。与 `persistClient` 插件不同，此方式不会将整个 QueryClient 作为单个条目持久化，而是分别持久化每个查询，并使用查询哈希 (query hash) 作为键名
+  - 若提供给单个 `useQuery` 钩子，则仅该查询会被持久化
 
 这种方式无需存储整个 `QueryClient`，而是由您决定应用中哪些数据值得持久化。每个查询会按需恢复（首次使用时）和持久化（每次 `queryFn` 执行后），因此无需节流处理。恢复查询后仍会遵循 `staleTime` 设置——若数据被视为过期 (stale)，恢复后将立即重新获取；若数据仍新鲜 (fresh)，则不会执行 `queryFn`。
 

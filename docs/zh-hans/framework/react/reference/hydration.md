@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:41:17.708Z'
 id: hydration
 title: 注水
 ---
+
 ## `dehydrate`
 
 `dehydrate` 会创建一个 `cache` 的冻结表示，后续可通过 `HydrationBoundary` 或 `hydrate` 进行水合。这在将预取查询从服务端传递到客户端，或将查询持久化到 localStorage 或其他持久化存储时非常有用。默认情况下，它仅包含当前成功的查询。

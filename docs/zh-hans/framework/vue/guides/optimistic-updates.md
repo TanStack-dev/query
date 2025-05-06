@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/guides/optimistic-updates.md
 replace:
   React: Vue
 ---
-

@@ -5,4 +5,3 @@ id: caching
 title: Caching Examples
 ref: docs/zh-hans/framework/react/guides/caching.md
 ---
-

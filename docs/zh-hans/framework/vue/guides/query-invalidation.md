@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/guides/query-invalidation.md
 replace:
   react-query: vue-query
 ---
-

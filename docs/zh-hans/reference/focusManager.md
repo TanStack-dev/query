@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:52:22.525Z'
 id: FocusManager
 title: focusManager
 ---
+
 `FocusManager` 用于管理 TanStack Query 中的焦点状态。
 
 它可用于更改默认的事件监听器或手动修改焦点状态。

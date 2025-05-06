@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:49:19.238Z'
 id: no-rest-destructuring
 title: 禁止剩余解构
 ---
+
 对查询结果使用对象剩余解构会自动订阅查询结果的每个字段，可能导致不必要的重新渲染。  
 此规则确保你仅订阅实际需要的字段。
 
@@ -42,5 +43,5 @@ const { data: todos } = todosQuery
 
 ## 特性
 
-- [x] ✅ 推荐规则  
+- [x] ✅ 推荐规则
 - [ ] 🔧 可自动修复

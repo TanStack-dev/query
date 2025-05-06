@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:21:37.348Z'
 id: overview
 title: 概述
 ---
+
 `@tanstack/svelte-query` 包为通过 Svelte 使用 TanStack Query 提供了一流的 API。
 
 ## 示例

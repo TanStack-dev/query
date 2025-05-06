@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:58:12.365Z'
 id: queries
 title: 查询
 ---
+
 ## 查询基础
 
 查询是与**唯一键**绑定的、对异步数据源的声明式依赖。查询可用于任何基于 Promise 的方法（包括 GET 和 POST 方法）从服务器获取数据。如果您的方法会修改服务器上的数据，建议改用[变更](./mutations.md)。

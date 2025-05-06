@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:13:31.868Z'
 id: initial-query-data
 title: 初始查询数据
 ---
+
 在需要之前，有多种方式可以为查询缓存提供初始数据：
 
 - 声明式：

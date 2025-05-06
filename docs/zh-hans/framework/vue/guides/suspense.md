@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:26:47.297Z'
 id: suspense
 title: Suspense
 ---
+
 > 注意：Vue Query 的 Suspense 模式目前属于实验性功能，与 Vue 自身的 Suspense 特性相同。这些 API 将会发生变化，除非您将 Vue 和 Vue Query 的版本锁定为相互兼容的补丁级别版本，否则不应在生产环境中使用。
 
 Vue Query 也可以与 Vue 的新 [Suspense](https://vuejs.org/guide/built-ins/suspense.html) API 结合使用。

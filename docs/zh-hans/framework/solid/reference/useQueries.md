@@ -8,4 +8,3 @@ replace:
   '@tanstack/react-query': '@tanstack/solid-query'
   'useQueries[(]': 'useQueries(() => '
 ---
-

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:33:11.338Z'
 id: useSuspenseInfiniteQuery
 title: useSuspenseInfiniteQuery
 ---
+
 ```tsx
 const result = useSuspenseInfiniteQuery(options)
 ```

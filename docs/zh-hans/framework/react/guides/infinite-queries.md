@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:13:56.367Z'
 id: infinite-queries
 title: 无限查询
 ---
+
 ## 无限查询 (Infinite Queries)
 
 能够以增量方式"加载更多"数据到现有数据集或实现"无限滚动"的列表渲染，是一种非常常见的 UI 模式。TanStack Query 为此提供了一个名为 `useInfiniteQuery` 的特殊版本 `useQuery` 来查询这类列表。

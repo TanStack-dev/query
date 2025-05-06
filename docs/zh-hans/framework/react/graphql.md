@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:24:54.134Z'
 id: graphql
 title: GraphQL
 ---
+
 由于 React Query 的获取机制是基于 Promise 无感知构建的，你可以将 React Query 与任何异步数据获取客户端一起使用，包括 GraphQL！
 
 > 请注意，React Query 不支持规范化缓存。虽然绝大多数用户实际上并不需要规范化缓存，甚至从中获得的收益比他们想象的要少得多，但在极少数情况下可能需要它。因此，请务必先与我们确认，以确保这确实是您所需要的功能！

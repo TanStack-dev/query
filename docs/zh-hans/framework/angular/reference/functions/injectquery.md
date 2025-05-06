@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:09:34.795Z'
 id: injectQuery
 title: 函数 / injectQuery
 ---
+
 # 函数: injectQuery()
 
 注入一个查询：声明式依赖与异步数据源的绑定关系，该数据源与唯一键相关联。

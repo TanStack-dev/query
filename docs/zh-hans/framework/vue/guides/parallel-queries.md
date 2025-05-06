@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T16:04:00.136Z'
 id: parallel-queries
 title: 并行查询
 ---
+
 "并行 (Parallel)" 查询是指同时执行多个查询以最大化数据获取的并发性。
 
 ## 手动并行查询

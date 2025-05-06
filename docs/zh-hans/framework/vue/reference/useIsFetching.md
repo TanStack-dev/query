@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/reference/useIsFetching.md
 replace:
   '@tanstack/react-query': '@tanstack/vue-query'
 ---
-

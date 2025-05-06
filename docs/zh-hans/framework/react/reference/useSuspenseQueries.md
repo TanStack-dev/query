@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:27:49.567Z'
 id: useSuspenseQueries
 title: useSuspenseQueries
 ---
+
 ```tsx
 const result = useSuspenseQueries(options)
 ```
@@ -11,6 +12,7 @@ const result = useSuspenseQueries(options)
 **参数选项**
 
 与 [useQueries](../reference/useQueries.md) 相同，但每个 `query` 不能包含以下属性：
+
 - `suspense`
 - `throwOnError`
 - `enabled`
@@ -19,6 +21,7 @@ const result = useSuspenseQueries(options)
 **返回值**
 
 返回结构与 [useQueries](../reference/useQueries.md) 相同，但针对每个 `query` 有以下区别：
+
 - `data` 保证已定义
 - 不包含 `isPlaceholderData` 属性
 - `status` 始终为 `success`

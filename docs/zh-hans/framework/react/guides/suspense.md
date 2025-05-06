@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:06:04.912Z'
 id: suspense
 title: Suspense
 ---
+
 React Query 也可以与 React 的 Suspense for Data Fetching APIs 配合使用。为此，我们提供了专用的钩子：
 
 - [useSuspenseQuery](../reference/useSuspenseQuery.md)

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:14:31.297Z'
 id: mutations
 title: 变更
 ---
+
 与查询不同，变更 (mutations) 通常用于创建/更新/删除数据或执行服务端副作用。为此，TanStack Query 导出了 `useMutation` 钩子。
 
 以下是一个向服务器添加新待办事项的变更示例：
@@ -172,10 +173,10 @@ useMutation({
 useMutation({
   mutationFn: addTodo,
   onSuccess: async () => {
-    console.log("我是第一个！")
+    console.log('我是第一个！')
   },
   onSettled: async () => {
-    console.log("我是第二个！")
+    console.log('我是第二个！')
   },
 })
 ```

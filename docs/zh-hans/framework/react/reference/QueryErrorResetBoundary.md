@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:41:50.065Z'
 id: QueryErrorResetBoundary
 title: QueryErrorResetBoundary
 ---
+
 ## 动机
 
 大多数核心 Web 框架**并未**提供一种全面的数据获取或更新方案。因此，开发者最终要么构建封装了严格数据获取规范的元框架，要么自行发明数据获取方式。这通常意味着拼凑基于组件的状态和副作用，或是使用更通用的状态管理库来存储并提供应用中的异步数据。

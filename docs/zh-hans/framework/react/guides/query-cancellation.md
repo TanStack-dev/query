@@ -4,15 +4,16 @@ translation-updated-at: '2025-05-06T04:09:59.909Z'
 id: query-cancellation
 title: 查询取消
 ---
+
 TanStack Query 为每个查询函数提供了一个 [`AbortSignal` 实例](https://developer.mozilla.org/docs/Web/API/AbortSignal)。当查询过期或变为非活跃状态时，该 `signal` 将被中止。这意味着所有查询均可取消，您可以根据需要在查询函数内部响应取消操作。最棒的是，您可以在享受自动取消带来的所有优势的同时，继续使用普通的 async/await 语法。
 
 `AbortController` API 在[大多数运行时环境](https://developer.mozilla.org/docs/Web/API/AbortController#browser_compatibility)中可用，但如果您的运行时环境不支持，则需要提供 polyfill。现有[多种 polyfill 可选](https://www.npmjs.com/search?q=abortcontroller%20polyfill)。
 
 ## 默认行为
 
-默认情况下，在 Promise 解析前卸载或不再使用的查询_不会_被取消。这意味着 Promise 解析后，结果数据仍会保留在缓存中。这对于已经开始接收查询但尚未完成就卸载组件的情况非常有用。如果您再次挂载组件且查询尚未被垃圾回收，数据将仍然可用。
+默认情况下，在 Promise 解析前卸载或不再使用的查询*不会*被取消。这意味着 Promise 解析后，结果数据仍会保留在缓存中。这对于已经开始接收查询但尚未完成就卸载组件的情况非常有用。如果您再次挂载组件且查询尚未被垃圾回收，数据将仍然可用。
 
-但如果消费了 `AbortSignal`，Promise 将被取消（例如中止 fetch 请求），因此查询也必须取消。取消查询将导致其状态_回退_到先前的状态。
+但如果消费了 `AbortSignal`，Promise 将被取消（例如中止 fetch 请求），因此查询也必须取消。取消查询将导致其状态*回退*到先前的状态。
 
 ## 使用 `fetch`
 

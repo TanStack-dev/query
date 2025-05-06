@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:09:15.717Z'
 id: scroll-restoration
 title: 滚动恢复
 ---
+
 ## 滚动恢复 (Scroll Restoration)
 
 传统上，当你在网页浏览器中导航回之前访问过的页面时，会发现页面会自动滚动到你上次离开时的位置。这一功能被称为 **滚动恢复 (scroll restoration)**。但随着现代 Web 应用逐渐转向客户端数据获取 (client side data fetching)，这一特性曾出现了一定程度的退化。不过在使用 TanStack Query 时，情况就完全不同了。

@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/plugins/createPersister.md
 replace:
   react-query: solid-query
 ---
-

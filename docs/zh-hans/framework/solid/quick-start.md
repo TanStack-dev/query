@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-03T22:08:58.056Z'
 id: quick-start
 title: 快速开始
 ---
+
 `@tanstack/solid-query` 包为在 SolidJS 中使用 TanStack Query 提供了一流的 API。
 
 ## 示例

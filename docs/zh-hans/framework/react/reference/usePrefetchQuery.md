@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:36:32.898Z'
 id: usePrefetchQuery
 title: usePrefetchQuery
 ---
+
 ```tsx
 usePrefetchQuery(options)
 ```
@@ -13,6 +14,7 @@ usePrefetchQuery(options)
 你可以向 `usePrefetchQuery` 传递所有 [`queryClient.prefetchQuery`](../../../reference/QueryClient.md#queryclientprefetchquery) 支持的参数。请注意以下必填项：
 
 - `queryKey: QueryKey`
+
   - **必填**
   - 需要在渲染期间预取的查询键 (query key)
 

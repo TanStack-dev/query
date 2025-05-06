@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:16:25.641Z'
 id: advanced-ssr
 title: 高级服务端渲染
 ---
+
 欢迎阅读高级服务端渲染 (Advanced Server Rendering) 指南，这里您将全面了解如何在流式渲染、服务器组件 (Server Components) 和 Next.js 应用路由 (app router) 中使用 React Query。
 
 建议先阅读[服务端渲染与注水 (Server Rendering & Hydration)](./ssr.md) 指南了解 SSR 基础，以及[性能与请求瀑布流 (Performance & Request Waterfalls)](./request-waterfalls.md) 和[预取与路由集成 (Prefetching & Router Integration)](./prefetching.md) 获取背景知识。
@@ -18,7 +19,7 @@ title: 高级服务端渲染
 
 ### 术语说明
 
-目前我们一直使用_服务端_和_客户端_这两个术语。需要注意的是，这与_服务器组件_和_客户端组件_并非一一对应。服务器组件保证只在服务端运行，但客户端组件实际上可以在两端运行，因为它们也会在初始_服务端渲染_阶段执行。
+目前我们一直使用*服务端*和*客户端*这两个术语。需要注意的是，这与*服务器组件*和*客户端组件*并非一一对应。服务器组件保证只在服务端运行，但客户端组件实际上可以在两端运行，因为它们也会在初始*服务端渲染*阶段执行。
 
 可以理解为：服务器组件的渲染发生在"加载阶段"（始终在服务端），而客户端组件运行在"应用阶段"。这个应用阶段既可能在 SSR 时运行于服务端，也可能在浏览器中运行。具体运行位置和是否参与 SSR 取决于不同框架的实现。
 
@@ -41,7 +42,7 @@ function makeQueryClient() {
   return new QueryClient({
     defaultOptions: {
       queries: {
-        // SSR 时通常需要设置默认 staleTime 
+        // SSR 时通常需要设置默认 staleTime
         // 大于 0 以避免客户端立即重新获取
         staleTime: 60 * 1000,
       },
@@ -313,6 +314,7 @@ export default async function PostsPage() {
 当客户端重新验证数据时，服务组件中的 `文章数` 不会更新。如果设置 `staleTime: Infinity` 可以避免此问题，但这样就失去了使用 React Query 的意义。
 
 适合使用 React Query 与服务器组件的场景：
+
 - 已有 React Query 应用需要迁移到服务器组件
 - 需要结合服务器组件优势的特定用例
 - 框架提供的数据获取工具无法满足需求
@@ -399,9 +401,7 @@ export function Providers({ children }) {
   const queryClient = getQueryClient()
   return (
     <QueryClientProvider client={queryClient}>
-      <ReactQueryStreamedHydration>
-        {children}
-      </ReactQueryStreamedHydration>
+      <ReactQueryStreamedHydration>{children}</ReactQueryStreamedHydration>
     </QueryClientProvider>
   )
 }

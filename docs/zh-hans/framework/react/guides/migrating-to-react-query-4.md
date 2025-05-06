@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:15:18.700Z'
 id: migrating-to-react-query-4
 title: 迁移到 v4
 ---
+
 ## 重大变更
 
 v4 是一个主要版本，需要注意以下破坏性变更：
@@ -35,6 +36,7 @@ npm install @tanstack/react-query-devtools
 可通过以下命令之一运行迁移：
 
 针对 `.js` 或 `.jsx` 文件：
+
 ```
 npx jscodeshift ./path/to/src/ \
   --extensions=js,jsx \
@@ -42,6 +44,7 @@ npx jscodeshift ./path/to/src/ \
 ```
 
 针对 `.ts` 或 `.tsx` 文件：
+
 ```
 npx jscodeshift ./path/to/src/ \
   --extensions=ts,tsx \
@@ -77,6 +80,7 @@ v3 中查询键和变更键可以是字符串或数组。React Query 内部始�
 可通过以下命令之一运行迁移：
 
 针对 `.js` 或 `.jsx` 文件：
+
 ```
 npx jscodeshift ./path/to/src/ \
   --extensions=js,jsx \
@@ -84,6 +88,7 @@ npx jscodeshift ./path/to/src/ \
 ```
 
 针对 `.ts` 或 `.tsx` 文件：
+
 ```
 npx jscodeshift ./path/to/src/ \
   --extensions=ts,tsx \

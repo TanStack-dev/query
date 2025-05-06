@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:22:45.237Z'
 id: overview
 title: SSR 与 SvelteKit
 ---
+
 ## 配置
 
 SvelteKit 默认使用服务端渲染 (SSR) 来渲染路由。因此，您需要在服务端禁用查询功能。否则，即使在 HTML 已发送至客户端后，您的查询仍会在服务端继续异步执行。

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:36:52.114Z'
 id: usePrefetchInfiniteQuery
 title: usePrefetchInfiniteQuery
 ---
+
 ```tsx
 usePrefetchInfiniteQuery(options)
 ```

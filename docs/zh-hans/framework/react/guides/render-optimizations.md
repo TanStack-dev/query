@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:04:41.928Z'
 id: render-optimizations
 title: 渲染优化
 ---
+
 React Query 自动应用多项优化策略，确保组件仅在真正需要时重新渲染。这主要通过以下方式实现：
 
 ## 结构共享 (structural sharing)
@@ -49,6 +50,7 @@ export const useTodoCount = () => {
 ### 记忆化 (memoization)
 
 `select` 函数仅在以下情况重新执行：
+
 - 函数引用发生变化
 - `data` 发生变化
 

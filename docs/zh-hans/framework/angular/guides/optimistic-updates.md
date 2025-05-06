@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:00:55.440Z'
 id: optimistic-updates
 title: 乐观更新
 ---
+
 Angular Query 提供了两种在变更操作完成前乐观更新 UI 的方式。您既可以使用 `onMutate` 选项直接更新缓存，也可以利用 `injectMutation` 返回的 `variables` 从结果中更新 UI。
 
 ## 通过 UI 更新

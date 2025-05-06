@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:48:42.197Z'
 id: eslint-plugin-query
 title: ESLint 插件 Query
 ---
+
 TanStack Query 提供了专属的 ESLint 插件。该插件用于强制执行最佳实践，并帮助您避免常见错误。
 
 ## 安装

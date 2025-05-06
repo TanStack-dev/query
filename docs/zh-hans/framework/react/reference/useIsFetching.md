@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:39:06.621Z'
 id: useIsFetching
 title: useIsFetching
 ---
+
 `useIsFetching` 是一个可选钩子，返回当前应用在后台加载或获取中的查询 `数量`（适用于全局加载指示器）。
 
 ```tsx
