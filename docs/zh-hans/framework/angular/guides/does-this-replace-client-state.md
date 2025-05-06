@@ -9,4 +9,3 @@ replace:
   useMutation: injectMutation
   hook: function
 ---
-

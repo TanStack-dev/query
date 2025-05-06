@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:38:54.202Z'
 id: useIsMutating
 title: useIsMutating
 ---
+
 `useIsMutating` 是一个可选钩子，用于返回当前应用中正在获取的变更操作（mutations）数量（适用于全局加载指示器场景）。
 
 ```tsx

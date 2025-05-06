@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/guides/background-fetching-indicators.md
 replace:
   'useMutation[(]': 'useMutation(() => '
 ---
-

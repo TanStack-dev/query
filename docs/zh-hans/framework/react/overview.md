@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:32:50.321Z'
 id: overview
 title: 概述
 ---
+
 TanStack Query（前身为 React Query）常被描述为 Web 应用程序中缺失的数据获取库，但更专业地说，它能让 **获取、缓存、同步和更新服务端状态 (server state)** 在你的 Web 应用中变得轻而易举。
 
 ## 动机

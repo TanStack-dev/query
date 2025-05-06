@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/community/community-projects.md
 replace:
   React Query: TanStack Query
 ---
-

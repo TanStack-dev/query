@@ -13,4 +13,3 @@ replace:
   'useQueries[(]': 'useQueries(() => '
   'useInfiniteQuery[(]': 'useInfiniteQuery(() => '
 ---
-

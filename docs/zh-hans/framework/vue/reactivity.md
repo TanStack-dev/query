@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T16:03:25.519Z'
 id: reactivity
 title: 响应式
 ---
+
 Vue 采用 [信号范式 (the signals paradigm)](https://vuejs.org/guide/extras/reactivity-in-depth.html#connection-to-signals) 来处理和追踪响应式数据。该系统的核心特性是响应式系统仅会在特定监听的响应式属性上触发更新。因此需要确保当查询所依赖的值更新时，查询也能同步更新。
 
 # 保持查询的响应性

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:56:14.760Z'
 id: QueryCache
 title: QueryCache
 ---
+
 `QueryCache` 是 TanStack Query 的存储机制，用于存储其包含的所有查询数据、元信息和状态。
 
 **通常情况下，您不会直接与 QueryCache 交互，而是通过 `QueryClient` 来操作特定缓存。**

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:56:03.413Z'
 id: query-retries
 title: 查询重试
 ---
+
 当 `injectQuery` 查询失败时（查询函数抛出错误），若该查询请求未达到最大连续重试次数（默认为 `3`）或提供了判断是否允许重试的函数，TanStack Query 将自动重试该查询。
 
 您可以在全局级别和单个查询级别配置重试行为：

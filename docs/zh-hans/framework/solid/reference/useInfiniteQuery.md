@@ -9,4 +9,3 @@ replace:
   'useInfiniteQuery[(]': 'useInfiniteQuery(() => '
   'useMutation[(]': 'useMutation(() => '
 ---
-

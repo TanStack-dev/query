@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:48:33.223Z'
 id: stable-query-client
 title: 稳定的 Query Client
 ---
+
 QueryClient 包含了 QueryCache，因此你应当只为应用的生命周期创建一个 QueryClient 实例 —— 而非在每次渲染时都创建新实例。
 
 > 例外情况：允许在异步服务端组件 (async Server Component) 内部创建新的 QueryClient，因为该异步函数仅在服务端调用一次。

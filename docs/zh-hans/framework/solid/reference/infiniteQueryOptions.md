@@ -5,4 +5,3 @@ id: infiniteQueryOptions
 title: infiniteQueryOptions
 ref: docs/zh-hans/framework/react/reference/infiniteQueryOptions.md
 ---
-

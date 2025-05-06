@@ -4,11 +4,12 @@ translation-updated-at: '2025-05-03T22:08:17.182Z'
 id: quick-start
 title: 快速开始
 ---
+
 以下代码片段简要展示了 Vue Query 的 3 个核心概念：
 
-- [查询 (Queries)](./guides/queries.md)  
-- [变更 (Mutations)](./guides/mutations.md)  
-- [查询失效 (Query Invalidation)](./guides/query-invalidation.md)  
+- [查询 (Queries)](./guides/queries.md)
+- [变更 (Mutations)](./guides/mutations.md)
+- [查询失效 (Query Invalidation)](./guides/query-invalidation.md)
 
 如需查看完整可运行的示例，请参考我们的 [基础 codesandbox 示例](../examples/basic)
 

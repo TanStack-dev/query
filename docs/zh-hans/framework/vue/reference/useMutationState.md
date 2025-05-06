@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/reference/useMutationState.md
 replace:
   '@tanstack/react-query': '@tanstack/vue-query'
 ---
-

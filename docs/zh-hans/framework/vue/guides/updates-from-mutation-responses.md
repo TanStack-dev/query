@@ -5,4 +5,3 @@ id: updates-from-mutation-responses
 title: Updates from Mutation Responses
 ref: docs/zh-hans/framework/react/guides/updates-from-mutation-responses.md
 ---
-

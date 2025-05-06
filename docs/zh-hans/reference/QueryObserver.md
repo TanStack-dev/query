@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:50:39.683Z'
 id: QueryObserver
 title: QueryObserver
 ---
+
 ## QueryObserver
 
 `QueryObserver` 可用于观察并在多个查询之间切换。

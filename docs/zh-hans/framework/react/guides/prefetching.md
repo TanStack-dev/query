@@ -4,13 +4,14 @@ translation-updated-at: '2025-05-06T04:11:22.321Z'
 id: prefetching
 title: 预获取与路由集成
 ---
+
 当您预知或推测某块数据即将被需要时，可以通过预取 (prefetching) 提前将该数据填充到缓存中，从而获得更快的用户体验。
 
 预取存在几种不同的实现模式：
 
 1. 在事件处理器中预取
-2. 在组件中预取  
-3. 通过路由集成预取  
+2. 在组件中预取
+3. 通过路由集成预取
 4. 在服务端渲染时预取（路由集成的另一种形式）
 
 本指南将探讨前三种模式，而第四种模式将在[《服务端渲染与注水指南》](./ssr.md)和[《高级服务端渲染指南》](./advanced-ssr.md)中深入讲解。
@@ -254,6 +255,7 @@ useEffect(() => {
 ```
 
 总结组件内预取的四种方案（根据场景选择）：
+
 - 使用 `usePrefetchQuery` 或 `usePrefetchInfiniteQuery` 在 Suspense 边界前预取
 - 使用 `useQuery` 或 `useSuspenseQueries` 并忽略结果
 - 在查询函数内预取

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:09:43.190Z'
 id: placeholder-query-data
 title: 占位查询数据
 ---
+
 ## 什么是占位数据 (Placeholder Data)？
 
 占位数据允许查询表现得好像已经拥有数据，类似于 `initialData` 选项，但**这些数据不会被持久化到缓存中**。这在以下场景中非常有用：当实际数据还在后台获取时，你已经拥有部分（或模拟）数据可以成功渲染查询结果。

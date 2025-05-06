@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:52:00.643Z'
 id: OnlineManager
 title: onlineManager
 ---
+
 `OnlineManager` 负责管理 TanStack Query 中的在线状态。它可用于修改默认的事件监听器或手动更改在线状态。
 
 > 默认情况下，`onlineManager` 会假定存在活跃的网络连接，并通过监听 `window` 对象上的 `online` 和 `offline` 事件来检测状态变化。

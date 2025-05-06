@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:49:37.842Z'
 id: no-unstable-deps
 title: 禁止不稳定依赖
 ---
+
 以下查询钩子返回的对象**不具备**引用稳定性：
 
 - `useQuery`

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:05:56.640Z'
 id: infinite-queries
 title: 无限查询
 ---
+
 ## 无限查询 (Infinite Queries)
 
 能够以增量方式"加载更多"数据到现有数据集或实现"无限滚动"的列表渲染是一种非常常见的 UI 模式。TanStack Query 为此提供了一个名为 `injectInfiniteQuery` 的 `injectQuery` 变体，专门用于查询这类列表。
@@ -38,6 +39,7 @@ fetch('/api/projects?cursor=9')
 ```
 
 通过这些信息，我们可以创建一个"加载更多"的 UI：
+
 - 默认情况下等待 `injectInfiniteQuery` 请求第一组数据
 - 在 `getNextPageParam` 中返回下一个查询的信息
 - 调用 `fetchNextPage` 函数
@@ -200,6 +202,7 @@ queryClient.setQueryData(['projects'], (data) => ({
 ## 如何限制页面数量？
 
 在某些使用场景中，您可能希望限制查询数据中存储的页面数量以提高性能和用户体验：
+
 - 当用户可以加载大量页面时（内存使用）
 - 当需要重新获取包含数十个页面的无限查询时（网络使用：所有页面都会顺序获取）
 

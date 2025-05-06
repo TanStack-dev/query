@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:02:39.658Z'
 id: window-focus-refetching
 title: 窗口焦点重新获取
 ---
+
 如果用户离开应用后返回，且查询数据已过时，**TanStack Query 会自动在后台为你请求最新数据**。你可以通过 `refetchOnWindowFocus` 选项全局或按查询禁用此行为：
 
 #### 全局禁用

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T16:12:44.238Z'
 id: disabling-queries
 title: 禁用/暂停查询
 ---
+
 如果你想阻止某个查询自动执行，可以使用 `enabled = false` 选项。`enabled` 选项也接受返回布尔值的回调函数。
 
 当 `enabled` 为 `false` 时：

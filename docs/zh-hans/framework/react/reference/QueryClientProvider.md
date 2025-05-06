@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:41:57.472Z'
 id: QueryClientProvider
 title: QueryClientProvider
 ---
+
 使用 `QueryClientProvider` 组件将 `QueryClient` 连接并提供给您的应用：
 
 ```tsx

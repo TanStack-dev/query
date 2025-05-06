@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:17:08.121Z'
 id: suspense
 title: Suspense
 ---
+
 Solid Query 也能与 Solid 的 [Suspense](https://docs.solidjs.com/reference/components/suspense) API 配合使用。
 
 为此，你需要用 Vue 提供的 `Suspense` 组件包裹可挂起的组件：

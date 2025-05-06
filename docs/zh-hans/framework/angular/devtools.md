@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:52:21.298Z'
 id: devtools
 title: 开发者工具
 ---
+
 ## 启用开发者工具 (devtools)
 
 开发者工具 (devtools) 可帮助您调试和检查查询 (queries) 与变更 (mutations)。您可以通过在 `provideTanStackQuery` 中添加 `withDevtools` 来启用开发者工具。

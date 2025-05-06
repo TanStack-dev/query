@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:50:00.104Z'
 id: QueriesObserver
 title: QueriesObserver
 ---
+
 ## `QueriesObserver`
 
 `QueriesObserver` 可用于观察多个查询。

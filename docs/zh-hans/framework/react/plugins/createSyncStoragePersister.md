@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:44:34.356Z'
 id: createSyncStoragePersister
 title: createSyncStoragePersister
 ---
+
 ## 安装
 
 该工具作为独立包提供，可通过 `'@tanstack/query-sync-storage-persister'` 导入使用。
@@ -63,7 +64,7 @@ persistQueryClient({
 
 持久化可能失败（例如当数据大小超出存储空间时）。通过向 persister 提供 `retry` 函数可以优雅处理错误。
 
-重试函数接收尝试保存的 `persistedClient`、发生的 `error` 以及重试次数 `errorCount` 作为输入。它应返回一个_新的_ `PersistedClient` 用于再次尝试持久化。若返回 _undefined_ 则表示不再尝试。
+重试函数接收尝试保存的 `persistedClient`、发生的 `error` 以及重试次数 `errorCount` 作为输入。它应返回一个*新的* `PersistedClient` 用于再次尝试持久化。若返回 _undefined_ 则表示不再尝试。
 
 ```tsx
 export type PersistRetryer = (props: {

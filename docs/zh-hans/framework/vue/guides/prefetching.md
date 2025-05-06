@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T16:02:02.404Z'
 id: prefetching
 title: 预获取
 ---
+
 ## 预取 (Prefetching)
 
 如果足够幸运，您可能对用户即将执行的操作有充分了解，从而能在数据被实际需要之前预先获取！这种情况下，可以使用 `prefetchQuery` 方法预取查询结果并存入缓存：

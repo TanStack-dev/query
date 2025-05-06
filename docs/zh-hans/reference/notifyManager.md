@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:50:31.682Z'
 id: NotifyManager
 title: notifyManager
 ---
+
 `notifyManager` 负责在 Tanstack Query 中调度和批量处理回调。
 
 它提供以下方法：

@@ -4,16 +4,17 @@ translation-updated-at: '2025-05-06T03:48:55.772Z'
 id: infinite-query-property-order
 title: 无限查询属性顺序
 ---
+
 对于以下函数，由于类型推断的原因，传入对象的属性顺序至关重要：
 
 - `useInfiniteQuery`
-- `useSuspenseInfiniteQuery`  
+- `useSuspenseInfiniteQuery`
 - `infiniteQueryOptions`
 
 正确的属性顺序应如下：
 
 - `queryFn`
-- `getPreviousPageParam`  
+- `getPreviousPageParam`
 - `getNextPageParam`
 
 其他所有属性对顺序不敏感，因为它们不依赖于类型推断。
@@ -60,5 +61,5 @@ const query = useInfiniteQuery({
 
 ## 特性
 
-- [x] ✅ 推荐  
+- [x] ✅ 推荐
 - [x] 🔧 可自动修复

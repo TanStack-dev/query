@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:09:50.452Z'
 id: injectMutation
 title: 函数 / injectMutation
 ---
+
 # 函数: injectMutation()
 
 ```ts

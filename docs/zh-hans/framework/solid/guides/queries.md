@@ -11,4 +11,3 @@ replace:
   'useQuery[(]': 'useQuery(() => '
   'useQueries[(]': 'useQueries(() => '
 ---
-

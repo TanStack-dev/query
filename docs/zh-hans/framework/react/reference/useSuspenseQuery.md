@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:33:00.266Z'
 id: useSuspenseQuery
 title: useSuspenseQuery
 ---
+
 ```tsx
 const result = useSuspenseQuery(options)
 ```

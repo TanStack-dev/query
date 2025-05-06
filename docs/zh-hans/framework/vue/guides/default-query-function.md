@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T16:13:27.152Z'
 id: default-query-function
 title: 默认查询函数
 ---
+
 如果你出于某种原因，希望在整个应用中共享同一个查询函数，仅通过查询键 (query key) 来标识应该获取什么数据，那么可以通过为 TanStack Query 提供一个**默认查询函数 (default query function)** 来实现：
 
 ```tsx

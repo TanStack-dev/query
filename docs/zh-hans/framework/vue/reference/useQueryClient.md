@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/reference/useQueryClient.md
 replace:
   '@tanstack/react-query': '@tanstack/vue-query'
 ---
-

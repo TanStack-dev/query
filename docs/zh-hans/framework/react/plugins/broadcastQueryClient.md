@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:46:07.089Z'
 id: broadcastQueryClient
 title: broadcastQueryClient (实验性)
 ---
+
 > 重要提示：该工具目前处于实验阶段。这意味着在次要版本和补丁版本中都可能出现破坏性变更。使用时需自行承担风险。如果您选择在生产环境中依赖此实验阶段的功能，请将版本锁定到具体的补丁版本以避免意外中断。
 
 `broadcastQueryClient` 是一个用于在同源浏览器标签页/窗口之间广播和同步 queryClient 状态的工具。

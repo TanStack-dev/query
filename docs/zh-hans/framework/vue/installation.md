@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:25:47.547Z'
 id: installation
 title: 安装
 ---
+
 ## 安装
 
 您可以通过 [NPM](https://npmjs.com) 安装 Vue Query。

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:28:24.242Z'
 id: typescript
 title: TypeScript
 ---
+
 Vue Query 现已采用 **TypeScript** 编写，确保库与您的项目具备类型安全！
 
 注意事项：

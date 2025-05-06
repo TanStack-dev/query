@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T03:55:21.509Z'
 id: QueryClient
 title: QueryClient
 ---
+
 ## `QueryClient`
 
 `QueryClient` 可用于与缓存进行交互：
@@ -282,11 +283,11 @@ setQueryData(queryKey, newData)
 setQueryData(queryKey, (oldData) => newData)
 ```
 
-如果更新函数返回 `undefined`，则不会更新查询数据。如果更新函数接收到 `undefined` 作为输入，可以返回 `undefined` 以取消更新，从而_不_创建新的缓存条目。
+如果更新函数返回 `undefined`，则不会更新查询数据。如果更新函数接收到 `undefined` 作为输入，可以返回 `undefined` 以取消更新，从而*不*创建新的缓存条目。
 
 **不可变性**
 
-通过 `setQueryData` 进行的更新必须以_不可变_方式执行。**不要**尝试通过直接修改 `oldData` 或通过 `getQueryData` 检索的数据来写入缓存。
+通过 `setQueryData` 进行的更新必须以*不可变*方式执行。**不要**尝试通过直接修改 `oldData` 或通过 `getQueryData` 检索的数据来写入缓存。
 
 ## `queryClient.getQueryState`
 
@@ -457,3 +458,4 @@ queryClient.resetQueries({ queryKey, exact: true })
 ```tsx
 if (queryClient.isFetching()) {
   console.log('至少有一个查询
+```

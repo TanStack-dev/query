@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:36:21.202Z'
 id: useQueries
 title: useQueries
 ---
+
 `useQueries` 钩子可用于获取可变数量的查询：
 
 ```tsx

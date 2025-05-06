@@ -4,10 +4,11 @@ translation-updated-at: '2025-05-06T04:14:00.417Z'
 id: does-this-replace-client-state
 title: '这会取代 [Redux, MobX 等] 吗？'
 ---
+
 首先，我们需要明确几个关键点：
 
 - TanStack Query 是一个**服务端状态 (server-state)** 库，负责管理服务器与客户端之间的异步操作
-- Redux、MobX、Zustand 等属于**客户端状态 (client-state)** 库，它们_虽然可以用来存储异步数据，但与 TanStack Query 这类工具相比效率较低_
+- Redux、MobX、Zustand 等属于**客户端状态 (client-state)** 库，它们*虽然可以用来存储异步数据，但与 TanStack Query 这类工具相比效率较低*
 
 基于以上认知，简短的答案是：TanStack Query **取代了那些用于管理客户端状态中缓存数据的样板代码和相关连接逻辑，仅需寥寥数行代码即可实现相同功能**。
 

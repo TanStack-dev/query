@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:15:18.467Z'
 id: migrating-to-react-query-3
 title: 迁移到 v3
 ---
+
 以下是翻译内容：
 
 React Query 的早期版本已经非常出色，为库带来了许多令人惊叹的新特性、更多魔法以及整体上更优的体验。它们也推动了该库的大规模采用，同时为库带来了大量优化建议（问题/贡献），并揭示了一些需要进一步打磨以使库更完善的地方。v3 版本正是这些打磨的成果。
@@ -539,3 +540,4 @@ const unsubscribe = observer.subscribe((result) => {
 ```tsx
 const observer = new QueriesObserver(queryClient, [
   { queryKey: ['post', 1], queryFn: fetch
+```

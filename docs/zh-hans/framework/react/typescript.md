@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:29:57.696Z'
 id: typescript
 title: TypeScript
 ---
+
 React Query 现已采用 **TypeScript** 编写，确保库与您的项目具备类型安全！
 
 注意事项：

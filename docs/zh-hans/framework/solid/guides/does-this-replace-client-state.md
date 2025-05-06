@@ -7,4 +7,3 @@ ref: docs/zh-hans/framework/react/guides/does-this-replace-client-state.md
 replace:
   hook: function
 ---
-

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:26:26.668Z'
 id: installation
 title: 安装
 ---
+
 # 安装
 
 您可以通过 [NPM](https://npmjs.com/) 安装 React Query，或者通过 [ESM.sh](https://esm.sh/) 使用传统的 `<script>` 标签引入。

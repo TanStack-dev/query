@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:53:28.456Z'
 id: query-options
 title: 查询选项
 ---
+
 在多个地方共享 `queryKey` 和 `queryFn` 同时保持它们彼此关联的最佳方式之一是使用 `queryOptions` 辅助函数。在运行时，该辅助函数仅返回传入的内容，但[结合 TypeScript 使用时](../typescript.md#typing-query-options)能提供诸多优势。您可以在一个地方定义查询的所有可能选项，并同时获得类型推断和类型安全。
 
 ```ts

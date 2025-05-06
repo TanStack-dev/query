@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:46:58.579Z'
 id: createAsyncStoragePersister
 title: createAsyncStoragePersister
 ---
+
 ## 安装
 
 该工具作为一个独立包提供，可通过 `'@tanstack/query-async-storage-persister'` 导入使用。

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:14:02.726Z'
 id: dependent-queries
 title: 依赖查询
 ---
+
 ## useQuery 依赖查询
 
 依赖（或串行）查询需要等待前一个查询完成才能执行。实现这一功能非常简单，只需使用 `enabled` 选项来指定查询何时可以运行：

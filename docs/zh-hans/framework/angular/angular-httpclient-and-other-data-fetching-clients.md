@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:50:39.857Z'
 id: Angular-HttpClient-and-other-data-fetching-clients
 title: Angular HttpClient 及其他数据获取客户端
 ---
+
 由于 TanStack Query 的请求机制基于 Promise 无感知构建，您实际上可以使用任何异步数据请求客户端，包括浏览器原生的 `fetch` API、`graphql-request` 等。
 
 ## 使用 Angular 的 `HttpClient` 获取数据
@@ -42,8 +43,8 @@ class ExampleComponent {
 
 ## 对比表格
 
-| 数据请求客户端                          | 优势                                                | 局限性                                                                     |
-| --------------------------------------- | --------------------------------------------------- | -------------------------------------------------------------------------- |
-| **Angular HttpClient**                  | 功能丰富且与 Angular 深度集成。                     | 需将 Observable 转换为 Promise。                                           |
-| **Fetch**                               | 浏览器原生 API，不增加包体积。                      | 功能基础，缺乏高级特性。                                                   |
-| **专用库如 `graphql-request`**          | 针对特定场景的专用功能。                            | 若非 Angular 专用库则框架集成度较差。                                       |
+| 数据请求客户端                 | 优势                            | 局限性                                |
+| ------------------------------ | ------------------------------- | ------------------------------------- |
+| **Angular HttpClient**         | 功能丰富且与 Angular 深度集成。 | 需将 Observable 转换为 Promise。      |
+| **Fetch**                      | 浏览器原生 API，不增加包体积。  | 功能基础，缺乏高级特性。              |
+| **专用库如 `graphql-request`** | 针对特定场景的专用功能。        | 若非 Angular 专用库则框架集成度较差。 |

@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:37:20.212Z'
 id: useMutationState
 title: useMutationState
 ---
+
 `useMutationState` 是一个钩子函数，用于访问 `MutationCache` 中的所有变更 (mutation) 状态。你可以通过传递 `filters` 参数来筛选变更，并通过 `select` 参数转换变更状态。
 
 **示例 1：获取所有进行中变更的变量**

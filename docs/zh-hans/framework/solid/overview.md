@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:16:29.033Z'
 id: overview
 title: 概述
 ---
+
 Solid Query 是 TanStack Query 的官方 SolidJS 适配器，它能让你在 Web 应用中轻松实现**数据获取、缓存、同步和更新服务端状态**。
 
 ## 动机

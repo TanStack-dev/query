@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:15:15.834Z'
 id: migrating-to-tanstack-query-5
 title: 迁移到 v5
 ---
+
 ## 重大变更
 
 v5 是一个主要版本，因此需要注意以下重大变更：

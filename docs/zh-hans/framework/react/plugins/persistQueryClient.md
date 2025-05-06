@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:43:46.632Z'
 id: persistQueryClient
 title: persistQueryClient
 ---
+
 这是一套用于与“持久化工具 (persisters)”交互的工具集，它们能保存你的 `queryClient` 以供后续使用。不同的 **持久化工具 (persisters)** 可将客户端和缓存存储到多种不同的存储层中。
 
 ## 构建持久化工具

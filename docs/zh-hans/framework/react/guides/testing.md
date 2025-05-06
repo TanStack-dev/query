@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:03:34.392Z'
 id: testing
 title: 测试
 ---
+
 React Query 通过钩子（hooks）机制工作——无论是我们提供的钩子还是围绕它们封装的自定义钩子。
 
 在 React 17 或更早版本中，可以使用 [React Hooks Testing Library](https://react-hooks-testing-library.com/) 库为这些自定义钩子编写单元测试。
@@ -16,7 +17,7 @@ npm install @testing-library/react-hooks react-test-renderer --save-dev
 
 （`react-test-renderer` 库是 `@testing-library/react-hooks` 的 peer 依赖项，其版本需与当前使用的 React 版本对应。）
 
-*注意*：在 React 18 或更高版本中，`renderHook` 可直接通过 `@testing-library/react` 包使用，不再需要 `@testing-library/react-hooks`。
+_注意_：在 React 18 或更高版本中，`renderHook` 可直接通过 `@testing-library/react` 包使用，不再需要 `@testing-library/react-hooks`。
 
 ## 第一个测试
 
@@ -107,7 +108,7 @@ await waitFor(() => expect(result.current.isSuccess).toBe(true))
 expect(result.current.data).toEqual({ answer: 42 })
 ```
 
-这里使用 `waitFor` 等待查询状态变为成功，确保钩子已完成处理并返回正确数据。*注意*：在 React 18 中，`waitFor` 的语义有所变化。
+这里使用 `waitFor` 等待查询状态变为成功，确保钩子已完成处理并返回正确数据。_注意_：在 React 18 中，`waitFor` 的语义有所变化。
 
 ## 测试加载更多/无限滚动
 
@@ -161,7 +162,7 @@ await waitFor(() =>
 expectation.done()
 ```
 
-*注意*：React 18 中 `waitFor` 的语义变化同上文所述。
+_注意_：React 18 中 `waitFor` 的语义变化同上文所述。
 
 ## 延伸阅读
 

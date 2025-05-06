@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T05:30:13.009Z'
 id: ssr
 title: SSR 与 Nuxt
 ---
+
 Vue Query 支持在服务端预取多个查询，并将这些查询 _脱水 (dehydrate)_ 到 queryClient 中。这意味着服务端可以预先渲染页面加载时立即可用的标记，一旦 JS 可用，Vue Query 就能用库的全部功能来升级或 _水合 (hydrate)_ 这些查询。包括在客户端重新获取那些自服务端渲染后已过时的查询。
 
 ## 使用 Nuxt.js

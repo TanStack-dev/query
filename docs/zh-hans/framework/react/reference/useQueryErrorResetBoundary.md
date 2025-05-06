@@ -4,6 +4,7 @@ translation-updated-at: '2025-05-06T04:33:21.777Z'
 id: useQueryErrorResetBoundary
 title: useQueryErrorResetBoundary
 ---
+
 该钩子函数会重置最近一层 `QueryErrorResetBoundary` 内的所有查询错误。如果未定义边界，则会全局重置错误：
 
 ```tsx
