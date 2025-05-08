@@ -1,0 +1,1372 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "20TOVD6LOE",
+    "apiKey": "35bc6c51aa322700d1383e17c4f669f4",
+    "indexName": "tanstackquery"
+  },
+  "sections": [
+    {
+      "label": "開始使用",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/react/overview"
+            },
+            {
+              "label": "安裝",
+              "to": "framework/react/installation"
+            },
+            {
+              "label": "快速開始",
+              "to": "framework/react/quick-start"
+            },
+            {
+              "label": "開發工具",
+              "to": "framework/react/devtools"
+            },
+            {
+              "label": "影片與演講",
+              "to": "framework/react/videos"
+            },
+            {
+              "label": "比較",
+              "to": "framework/react/comparison"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/react/typescript"
+            },
+            {
+              "label": "GraphQL",
+              "to": "framework/react/graphql"
+            },
+            {
+              "label": "React Native",
+              "to": "framework/react/react-native"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/solid/overview"
+            },
+            {
+              "label": "快速開始",
+              "to": "framework/solid/quick-start"
+            },
+            {
+              "label": "安裝",
+              "to": "framework/solid/installation"
+            },
+            {
+              "label": "開發工具",
+              "to": "framework/solid/devtools"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/solid/typescript"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/vue/overview"
+            },
+            {
+              "label": "安裝",
+              "to": "framework/vue/installation"
+            },
+            {
+              "label": "快速開始",
+              "to": "framework/vue/quick-start"
+            },
+            {
+              "label": "開發工具",
+              "to": "framework/vue/devtools"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/vue/typescript"
+            },
+            {
+              "label": "響應式",
+              "to": "framework/vue/reactivity"
+            },
+            {
+              "label": "GraphQL",
+              "to": "framework/vue/graphql"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/svelte/overview"
+            },
+            {
+              "label": "安裝",
+              "to": "framework/svelte/installation"
+            },
+            {
+              "label": "開發工具",
+              "to": "framework/svelte/devtools"
+            },
+            {
+              "label": "SSR 與 SvelteKit",
+              "to": "framework/svelte/ssr"
+            },
+            {
+              "label": "響應式",
+              "to": "framework/svelte/reactivity"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "概述",
+              "to": "framework/angular/overview"
+            },
+            {
+              "label": "安裝",
+              "to": "framework/angular/installation"
+            },
+            {
+              "label": "快速開始",
+              "to": "framework/angular/quick-start"
+            },
+            {
+              "label": "Angular HttpClient 與其他資料獲取客戶端",
+              "to": "framework/angular/angular-httpclient-and-other-data-fetching-clients"
+            },
+            {
+              "label": "開發工具",
+              "to": "framework/angular/devtools"
+            },
+            {
+              "label": "TypeScript",
+              "to": "framework/angular/typescript"
+            },
+            {
+              "label": "無區域 (Zoneless)",
+              "to": "framework/angular/zoneless"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "指南與概念",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "重要預設值",
+              "to": "framework/react/guides/important-defaults"
+            },
+            {
+              "label": "查詢",
+              "to": "framework/react/guides/queries"
+            },
+            {
+              "label": "查詢鍵",
+              "to": "framework/react/guides/query-keys"
+            },
+            {
+              "label": "查詢函數",
+              "to": "framework/react/guides/query-functions"
+            },
+            {
+              "label": "查詢選項",
+              "to": "framework/react/guides/query-options"
+            },
+            {
+              "label": "網路模式",
+              "to": "framework/react/guides/network-mode"
+            },
+            {
+              "label": "平行查詢",
+              "to": "framework/react/guides/parallel-queries"
+            },
+            {
+              "label": "依賴查詢",
+              "to": "framework/react/guides/dependent-queries"
+            },
+            {
+              "label": "背景獲取指示器",
+              "to": "framework/react/guides/background-fetching-indicators"
+            },
+            {
+              "label": "視窗焦點重新獲取",
+              "to": "framework/react/guides/window-focus-refetching"
+            },
+            {
+              "label": "停用/暫停查詢",
+              "to": "framework/react/guides/disabling-queries"
+            },
+            {
+              "label": "查詢重試",
+              "to": "framework/react/guides/query-retries"
+            },
+            {
+              "label": "分頁查詢",
+              "to": "framework/react/guides/paginated-queries"
+            },
+            {
+              "label": "無限查詢",
+              "to": "framework/react/guides/infinite-queries"
+            },
+            {
+              "label": "初始查詢資料",
+              "to": "framework/react/guides/initial-query-data"
+            },
+            {
+              "label": "佔位查詢資料",
+              "to": "framework/react/guides/placeholder-query-data"
+            },
+            {
+              "label": "變更",
+              "to": "framework/react/guides/mutations"
+            },
+            {
+              "label": "查詢失效",
+              "to": "framework/react/guides/query-invalidation"
+            },
+            {
+              "label": "來自變更的失效",
+              "to": "framework/react/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "來自變更回應的更新",
+              "to": "framework/react/guides/updates-from-mutation-responses"
+            },
+            {
+              "label": "樂觀更新",
+              "to": "framework/react/guides/optimistic-updates"
+            },
+            {
+              "label": "查詢取消",
+              "to": "framework/react/guides/query-cancellation"
+            },
+            {
+              "label": "滾動恢復",
+              "to": "framework/react/guides/scroll-restoration"
+            },
+            {
+              "label": "篩選器",
+              "to": "framework/react/guides/filters"
+            },
+            {
+              "label": "效能與請求瀑布",
+              "to": "framework/react/guides/request-waterfalls"
+            },
+            {
+              "label": "預獲取與路由整合",
+              "to": "framework/react/guides/prefetching"
+            },
+            {
+              "label": "伺服器渲染與水合",
+              "to": "framework/react/guides/ssr"
+            },
+            {
+              "label": "進階伺服器渲染",
+              "to": "framework/react/guides/advanced-ssr"
+            },
+            {
+              "label": "快取",
+              "to": "framework/react/guides/caching"
+            },
+            {
+              "label": "渲染優化",
+              "to": "framework/react/guides/render-optimizations"
+            },
+            {
+              "label": "預設查詢函數",
+              "to": "framework/react/guides/default-query-function"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/react/guides/suspense"
+            },
+            {
+              "label": "測試",
+              "to": "framework/react/guides/testing"
+            },
+            {
+              "label": "這會取代 [Redux, MobX 等] 嗎？",
+              "to": "framework/react/guides/does-this-replace-client-state"
+            },
+            {
+              "label": "遷移至 v3",
+              "to": "framework/react/guides/migrating-to-react-query-3"
+            },
+            {
+              "label": "遷移至 v4",
+              "to": "framework/react/guides/migrating-to-react-query-4"
+            },
+            {
+              "label": "遷移至 v5",
+              "to": "framework/react/guides/migrating-to-v5"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "重要預設值",
+              "to": "framework/solid/guides/important-defaults"
+            },
+            {
+              "label": "查詢",
+              "to": "framework/solid/guides/queries"
+            },
+            {
+              "label": "查詢鍵",
+              "to": "framework/solid/guides/query-keys"
+            },
+            {
+              "label": "查詢函數",
+              "to": "framework/solid/guides/query-functions"
+            },
+            {
+              "label": "查詢選項",
+              "to": "framework/solid/guides/query-options"
+            },
+            {
+              "label": "網路模式",
+              "to": "framework/solid/guides/network-mode"
+            },
+            {
+              "label": "平行查詢",
+              "to": "framework/solid/guides/parallel-queries"
+            },
+            {
+              "label": "依賴查詢",
+              "to": "framework/solid/guides/dependent-queries"
+            },
+            {
+              "label": "背景獲取指示器",
+              "to": "framework/solid/guides/background-fetching-indicators"
+            },
+            {
+              "label": "視窗焦點重新獲取",
+              "to": "framework/solid/guides/window-focus-refetching"
+            },
+            {
+              "label": "停用/暫停查詢",
+              "to": "framework/solid/guides/disabling-queries"
+            },
+            {
+              "label": "查詢重試",
+              "to": "framework/solid/guides/query-retries"
+            },
+            {
+              "label": "分頁查詢",
+              "to": "framework/solid/guides/paginated-queries"
+            },
+            {
+              "label": "無限查詢",
+              "to": "framework/solid/guides/infinite-queries"
+            },
+            {
+              "label": "初始查詢資料",
+              "to": "framework/solid/guides/initial-query-data"
+            },
+            {
+              "label": "佔位查詢資料",
+              "to": "framework/solid/guides/placeholder-query-data"
+            },
+            {
+              "label": "變更",
+              "to": "framework/solid/guides/mutations"
+            },
+            {
+              "label": "查詢失效",
+              "to": "framework/solid/guides/query-invalidation"
+            },
+            {
+              "label": "來自變更的失效",
+              "to": "framework/solid/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "來自變更回應的更新",
+              "to": "framework/solid/guides/updates-from-mutation-responses"
+            },
+            {
+              "label": "樂觀更新",
+              "to": "framework/solid/guides/optimistic-updates"
+            },
+            {
+              "label": "查詢取消",
+              "to": "framework/solid/guides/query-cancellation"
+            },
+            {
+              "label": "滾動恢復",
+              "to": "framework/solid/guides/scroll-restoration"
+            },
+            {
+              "label": "篩選器",
+              "to": "framework/solid/guides/filters"
+            },
+            {
+              "label": "請求瀑布",
+              "to": "framework/solid/guides/request-waterfalls"
+            },
+            {
+              "label": "預獲取",
+              "to": "framework/solid/guides/prefetching"
+            },
+            {
+              "label": "SSR",
+              "to": "framework/solid/guides/ssr"
+            },
+            {
+              "label": "進階 SSR",
+              "to": "framework/solid/guides/advanced-ssr"
+            },
+            {
+              "label": "快取",
+              "to": "framework/solid/guides/caching"
+            },
+            {
+              "label": "預設查詢函數",
+              "to": "framework/solid/guides/default-query-function"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/solid/guides/suspense"
+            },
+            {
+              "label": "測試",
+              "to": "framework/solid/guides/testing"
+            },
+            {
+              "label": "這會取代狀態管理器嗎？",
+              "to": "framework/angular/guides/does-this-replace-client-state"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "重要預設值",
+              "to": "framework/vue/guides/important-defaults"
+            },
+            {
+              "label": "查詢",
+              "to": "framework/vue/guides/queries"
+            },
+            {
+              "label": "查詢鍵",
+              "to": "framework/vue/guides/query-keys"
+            },
+            {
+              "label": "查詢函數",
+              "to": "framework/vue/guides/query-functions"
+            },
+            {
+              "label": "查詢選項",
+              "to": "framework/vue/guides/query-options"
+            },
+            {
+              "label": "網路模式",
+              "to": "framework/vue/guides/network-mode"
+            },
+            {
+              "label": "平行查詢",
+              "to": "framework/vue/guides/parallel-queries"
+            },
+            {
+              "label": "依賴查詢",
+              "to": "framework/vue/guides/dependent-queries"
+            },
+            {
+              "label": "背景獲取指示器",
+              "to": "framework/vue/guides/background-fetching-indicators"
+            },
+            {
+              "label": "視窗焦點重新獲取",
+              "to": "framework/vue/guides/window-focus-refetching"
+            },
+            {
+              "label": "停用/暫停查詢",
+              "to": "framework/vue/guides/disabling-queries"
+            },
+            {
+              "label": "查詢重試",
+              "to": "framework/vue/guides/query-retries"
+            },
+            {
+              "label": "分頁查詢",
+              "to": "framework/vue/guides/paginated-queries"
+            },
+            {
+              "label": "無限查詢",
+              "to": "framework/vue/guides/infinite-queries"
+            },
+            {
+              "label": "初始查詢資料",
+              "to": "framework/vue/guides/initial-query-data"
+            },
+            {
+              "label": "佔位查詢資料",
+              "to": "framework/vue/guides/placeholder-query-data"
+            },
+            {
+              "label": "變更",
+              "to": "framework/vue/guides/mutations"
+            },
+            {
+              "label": "查詢失效",
+              "to": "framework/vue/guides/query-invalidation"
+            },
+            {
+              "label": "來自變更的失效",
+              "to": "framework/vue/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "來自變更回應的更新",
+              "to": "framework/vue/guides/updates-from-mutation-responses"
+            },
+            {
+              "label": "樂觀更新",
+              "to": "framework/vue/guides/optimistic-updates"
+            },
+            {
+              "label": "查詢取消",
+              "to": "framework/vue/guides/query-cancellation"
+            },
+            {
+              "label": "滾動恢復",
+              "to": "framework/vue/guides/scroll-restoration"
+            },
+            {
+              "label": "篩選器",
+              "to": "framework/vue/guides/filters"
+            },
+            {
+              "label": "預獲取",
+              "to": "framework/vue/guides/prefetching"
+            },
+            {
+              "label": "SSR 與 Nuxt",
+              "to": "framework/vue/guides/ssr"
+            },
+            {
+              "label": "快取",
+              "to": "framework/vue/guides/caching"
+            },
+            {
+              "label": "預設查詢函數",
+              "to": "framework/vue/guides/default-query-function"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/vue/guides/suspense"
+            },
+            {
+              "label": "測試",
+              "to": "framework/vue/guides/testing"
+            },
+            {
+              "label": "自訂客戶端",
+              "to": "framework/vue/guides/custom-client"
+            },
+            {
+              "label": "這會取代 [Vuex, Pinia] 嗎？",
+              "to": "framework/vue/guides/does-this-replace-client-state"
+            },
+            {
+              "label": "遷移至 v5",
+              "to": "framework/vue/guides/migrating-to-v5"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "重要預設值",
+              "to": "framework/angular/guides/important-defaults"
+            },
+            {
+              "label": "查詢",
+              "to": "framework/angular/guides/queries"
+            },
+            {
+              "label": "查詢鍵",
+              "to": "framework/angular/guides/query-keys"
+            },
+            {
+              "label": "查詢函數",
+              "to": "framework/angular/guides/query-functions"
+            },
+            {
+              "label": "查詢選項",
+              "to": "framework/angular/guides/query-options"
+            },
+            {
+              "label": "網路模式",
+              "to": "framework/angular/guides/network-mode"
+            },
+            {
+              "label": "平行查詢",
+              "to": "framework/angular/guides/parallel-queries"
+            },
+            {
+              "label": "依賴查詢",
+              "to": "framework/angular/guides/dependent-queries"
+            },
+            {
+              "label": "背景獲取指示器",
+              "to": "framework/angular/guides/background-fetching-indicators"
+            },
+            {
+              "label": "視窗焦點重新獲取",
+              "to": "framework/angular/guides/window-focus-refetching"
+            },
+            {
+              "label": "停用/暫停查詢",
+              "to": "framework/angular/guides/disabling-queries"
+            },
+            {
+              "label": "查詢重試",
+              "to": "framework/angular/guides/query-retries"
+            },
+            {
+              "label": "分頁查詢",
+              "to": "framework/angular/guides/paginated-queries"
+            },
+            {
+              "label": "無限查詢",
+              "to": "framework/angular/guides/infinite-queries"
+            },
+            {
+              "label": "初始查詢資料",
+              "to": "framework/angular/guides/initial-query-data"
+            },
+            {
+              "label": "佔位查詢資料",
+              "to": "framework/angular/guides/placeholder-query-data"
+            },
+            {
+              "label": "變更",
+              "to": "framework/angular/guides/mutations"
+            },
+            {
+              "label": "變更選項",
+              "to": "framework/angular/guides/mutation-options"
+            },
+            {
+              "label": "查詢失效",
+              "to": "framework/angular/guides/query-invalidation"
+            },
+            {
+              "label": "來自變更的失效",
+              "to": "framework/angular/guides/invalidations-from-mutations"
+            },
+            {
+              "label": "樂觀更新",
+              "to": "framework/angular/guides/optimistic-updates"
+            },
+            {
+              "label": "查詢取消",
+              "to": "framework/angular/guides/query-cancellation"
+            },
+            {
+              "label": "滾動恢復",
+              "to": "framework/angular/guides/scroll-restoration"
+            },
+            {
+              "label": "篩選器",
+              "to": "framework/angular/guides/filters"
+            },
+            {
+              "label": "快取",
+              "to": "framework/angular/guides/caching"
+            },
+            {
+              "label": "預設查詢函數",
+              "to": "framework/angular/guides/default-query-function"
+            },
+            {
+              "label": "這會取代狀態管理器嗎？",
+              "to": "framework/angular/guides/does-this-replace-client-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "API 參考",
+      "children": [
+        {
+          "label": "QueryClient",
+          "to": "reference/QueryClient"
+        },
+        {
+          "label": "QueryCache",
+          "to": "reference/QueryCache"
+        },
+        {
+          "label": "MutationCache",
+          "to": "reference/MutationCache"
+        },
+        {
+          "label": "QueryObserver",
+          "to": "reference/QueryObserver"
+        },
+        {
+          "label": "InfiniteQueryObserver",
+          "to": "reference/InfiniteQueryObserver"
+        },
+        {
+          "label": "QueriesObserver",
+          "to": "reference/QueriesObserver"
+        },
+        {
+          "label": "streamedQuery",
+          "to": "reference/streamedQuery"
+        },
+        {
+          "label": "focusManager",
+          "to": "reference/focusManager"
+        },
+        {
+          "label": "onlineManager",
+          "to": "reference/onlineManager"
+        },
+        {
+          "label": "notifyManager",
+          "to": "reference/notifyManager"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "useQuery",
+              "to": "framework/react/reference/useQuery"
+            },
+            {
+              "label": "useQueries",
+              "to": "framework/react/reference/useQueries"
+            },
+            {
+              "label": "useInfiniteQuery",
+              "to": "framework/react/reference/useInfiniteQuery"
+            },
+            {
+              "label": "useMutation",
+              "to": "framework/react/reference/useMutation"
+            },
+            {
+              "label": "useIsFetching",
+              "to": "framework/react/reference/useIsFetching"
+            },
+            {
+              "label": "useIsMutating",
+              "to": "framework/react/reference/useIsMutating"
+            },
+            {
+              "label": "useMutationState",
+              "to": "framework/react/reference/useMutationState"
+            },
+            {
+              "label": "useSuspenseQuery",
+              "to": "framework/react/reference/useSuspenseQuery"
+            },
+            {
+              "label": "useSuspenseInfiniteQuery",
+              "to": "framework/react/reference/useSuspenseInfiniteQuery"
+            },
+            {
+              "label": "useSuspenseQueries",
+              "to": "framework/react/reference/useSuspenseQueries"
+            },
+            {
+              "label": "QueryClientProvider",
+              "to": "framework/react/reference/QueryClientProvider"
+            },
+            {
+              "label": "useQueryClient",
+              "to": "framework/react/reference/useQueryClient"
+            },
+            {
+              "label": "queryOptions",
+              "to": "framework/react/reference/queryOptions"
+            },
+            {
+              "label": "infiniteQueryOptions",
+              "to": "framework/react/reference/infiniteQueryOptions"
+            },
+            {
+              "label": "usePrefetchQuery",
+              "to": "framework/react/reference/usePrefetchQuery"
+            },
+            {
+              "label": "usePrefetchInfiniteQuery",
+              "to": "framework/react/reference/usePrefetchInfiniteQuery"
+            },
+            {
+              "label": "QueryErrorResetBoundary",
+              "to": "framework/react/reference/QueryErrorResetBoundary"
+            },
+            {
+              "label": "useQueryErrorResetBoundary",
+              "to": "framework/react/reference/useQueryErrorResetBoundary"
+            },
+            {
+              "label": "hydration",
+              "to": "framework/react/reference/hydration"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "useQuery",
+              "to": "framework/vue/reference/useQuery"
+            },
+            {
+              "label": "useQueries",
+              "to": "framework/vue/reference/useQueries"
+            },
+            {
+              "label": "useInfiniteQuery",
+              "to": "framework/vue/reference/useInfiniteQuery"
+            },
+            {
+              "label": "useMutation",
+              "to": "framework/vue/reference/useMutation"
+            },
+            {
+              "label": "useIsFetching",
+              "to": "framework/vue/reference/useIsFetching"
+            },
+            {
+              "label": "useIsMutating",
+              "to": "framework/vue/reference/useIsMutating"
+            },
+            {
+              "label": "useMutationState",
+              "to": "framework/vue/reference/useMutationState"
+            },
+            {
+              "label": "useQueryClient",
+              "to": "framework/vue/reference/useQueryClient"
+            },
+            {
+              "label": "queryOptions",
+              "to": "framework/vue/reference/queryOptions"
+            },
+            {
+              "label": "infiniteQueryOptions",
+              "to": "framework/vue/reference/infiniteQueryOptions"
+            },
+            {
+              "label": "hydration",
+              "to": "framework/vue/reference/hydration"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "useQuery",
+              "to": "framework/solid/reference/useQuery"
+            },
+            {
+              "label": "useQueries",
+              "to": "framework/solid/reference/useQueries"
+            },
+            {
+              "label": "useInfiniteQuery",
+              "to": "framework/solid/reference/useInfiniteQuery"
+            },
+            {
+              "label": "useMutation",
+              "to": "framework/solid/reference/useMutation"
+            },
+            {
+              "label": "useIsFetching",
+              "to": "framework/solid/reference/useIsFetching"
+            },
+            {
+              "label": "useIsMutating",
+              "to": "framework/solid/reference/useIsMutating"
+            },
+            {
+              "label": "useMutationState",
+              "to": "framework/solid/reference/useMutationState"
+            },
+            {
+              "label": "queryOptions",
+              "to": "framework/solid/reference/queryOptions"
+            },
+            {
+              "label": "infiniteQueryOptions",
+              "to": "framework/solid/reference/infiniteQueryOptions"
+            },
+            {
+              "label": "hydration",
+              "to": "framework/solid/reference/hydration"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Svelte 參考",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "函數 / createQuery",
+              "to": "framework/svelte/reference/functions/createquery"
+            },
+            {
+              "label": "函數 / createMutation",
+              "to": "framework/svelte/reference/functions/createmutation"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Angular 參考",
+              "to": "framework/angular/reference/index"
+            },
+            {
+              "label": "函數 / injectQuery",
+              "to": "framework/angular/reference/functions/injectquery"
+            },
+            {
+              "label": "函數 / injectMutation",
+              "to": "framework/angular/reference/functions/injectmutation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "ESLint",
+      "children": [
+        {
+          "label": "ESLint 插件 Query",
+          "to": "eslint/eslint-plugin-query"
+        },
+        {
+          "label": "徹底依賴檢查",
+          "to": "eslint/exhaustive-deps"
+        },
+        {
+          "label": "穩定查詢客戶端",
+          "to": "eslint/stable-query-client"
+        },
+        {
+          "label": "無其餘解構",
+          "to": "eslint/no-rest-destructuring"
+        },
+        {
+          "label": "無不穩定依賴",
+          "to": "eslint/no-unstable-deps"
+        },
+        {
+          "label": "無限查詢屬性順序",
+          "to": "eslint/infinite-query-property-order"
+        }
+      ]
+    },
+    {
+      "label": "社群資源",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "TkDodo 的部落格",
+              "to": "framework/react/community/tkdodos-blog"
+            },
+            {
+              "label": "社群專案",
+              "to": "framework/react/community/community-projects"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "TkDodo 的部落格",
+              "to": "framework/solid/community/tkdodos-blog"
+            },
+            {
+              "label": "社群專案",
+              "to": "framework/solid/community/community-projects"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "TkDodo 的部落格",
+              "to": "framework/vue/community/tkdodos-blog"
+            },
+            {
+              "label": "社群專案",
+              "to": "framework/vue/community/community-projects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "範例",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "簡單",
+              "to": "framework/react/examples/simple"
+            },
+            {
+              "label": "基礎",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "基礎 w/ GraphQL-Request",
+              "to": "framework/react/examples/basic-graphql-request"
+            },
+            {
+              "label": "自動重新獲取 / 輪詢 / 即時",
+              "to": "framework/react/examples/auto-refetching"
+            },
+            {
+              "label": "樂觀更新 (UI)",
+              "to": "framework/react/examples/optimistic-updates-ui"
+            },
+            {
+              "label": "樂觀更新 (快取)",
+              "to": "framework/react/examples/optimistic-updates-cache"
+            },
+            {
+              "label": "分頁",
+              "to": "framework/react/examples/pagination"
+            },
+            {
+              "label": "載入更多與無限滾動",
+              "to": "framework/react/examples/load-more-infinite-scroll"
+            },
+            {
+              "label": "帶有最大頁數的無限查詢",
+              "to": "framework/react/examples/infinite-query-with-max-pages"
+            },
+            {
+              "label": "Suspense",
+              "to": "framework/react/examples/suspense"
+            },
+            {
+              "label": "預設查詢函數",
+              "to": "framework/react/examples/default-query-function"
+            },
+            {
+              "label": "遊樂場",
+              "to": "framework/react/examples/playground"
+            },
+            {
+              "label": "預獲取",
+              "to": "framework/react/examples/prefetching"
+            },
+            {
+              "label": "星際大戰",
+              "to": "framework/react/examples/star-wars"
+            },
+            {
+              "label": "瑞克與莫蒂",
+              "to": "framework/react/examples/rick-morty"
+            },
+            {
+              "label": "Next.js 頁面",
+              "to": "framework/react/examples/nextjs"
+            },
+            {
+              "label": "帶有預獲取的 Next.js 應用",
+              "to": "framework/react/examples/nextjs-app-prefetching"
+            },
+            {
+              "label": "帶有串流的 Next.js 應用",
+              "to": "framework/react/examples/nextjs-suspense-streaming"
+            },
+            {
+              "label": "React Native",
+              "to": "framework/react/examples/react-native"
+            },
+            {
+              "label": "React Router",
+              "to": "framework/react/examples/react-router"
+            },
+            {
+              "label": "離線查詢與變更",
+              "to": "framework/react/examples/offline"
+            },
+            {
+              "label": "Algolia",
+              "to": "framework/react/examples/algolia"
+            },
+            {
+              "label": "Shadow DOM",
+              "to": "framework/react/examples/shadow-dom"
+            },
+            {
+              "label": "開發工具嵌入式面板",
+              "to": "framework/react/examples/devtools-panel"
+            },
+            {
+              "label": "聊天範例 (串流)",
+              "to": "framework/react/examples/chat"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "簡單",
+              "to": "framework/solid/examples/simple"
+            },
+            {
+              "label": "基礎",
+              "to": "framework/solid/examples/basic"
+            },
+            {
+              "label": "基礎 w/ GraphQL-Request",
+              "to": "framework/solid/examples/basic-graphql-request"
+            },
+            {
+              "label": "預設查詢函數",
+              "to": "framework/solid/examples/default-query-function"
+            },
+            {
+              "label": "Solid Start",
+              "to": "framework/solid/examples/solid-start-streaming"
+            },
+            {
+              "label": "Astro",
+              "to": "framework/solid/examples/astro"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "基礎",
+              "to": "framework/vue/examples/basic"
+            },
+            {
+              "label": "Vue 2.6",
+              "to": "framework/vue/examples/2.6-basic"
+            },
+            {
+              "label": "Nuxt 3",
+              "to": "framework/vue/examples/nuxt3"
+            },
+            {
+              "label": "持久化",
+              "to": "framework/vue/examples/persister"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "簡單",
+              "to": "framework/svelte/examples/simple"
+            },
+            {
+              "label": "基礎",
+              "to": "framework/svelte/examples/basic"
+            },
+            {
+              "label": "自動重新獲取 / 輪詢 / 即時",
+              "to": "framework/svelte/examples/auto-refetching"
+            },
+            {
+              "label": "SSR",
+              "to": "framework/svelte/examples/ssr"
+            },
+            {
+              "label": "樂觀更新",
+              "to": "framework/svelte/examples/optimistic-updates"
+            },
+            {
+              "label": "遊樂場",
+              "to": "framework/svelte/examples/playground"
+            },
+            {
+              "label": "星際大戰",
+              "to": "framework/svelte/examples/star-wars"
+            },
+            {
+              "label": "無限查詢",
+              "to": "framework/svelte/examples/load-more-infinite-scroll"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "簡單",
+              "to": "framework/angular/examples/simple"
+            },
+            {
+              "label": "基礎",
+              "to": "framework/angular/examples/basic"
+            },
+            {
+              "label": "自動重新獲取 / 輪詢 / 即時",
+              "to": "framework/angular/examples/auto-refetching"
+            },
+            {
+              "label": "樂觀更新",
+              "to": "framework/angular/examples/optimistic-updates"
+            },
+            {
+              "label": "分頁",
+              "to": "framework/angular/examples/pagination"
+            },
+            {
+              "label": "帶有最大頁數的無限查詢",
+              "to": "framework/angular/examples/infinite-query-with-max-pages"
+            },
+            {
+              "label": "Angular 路由",
+              "to": "framework/angular/examples/router"
+            },
+            {
+              "label": "RxJS 自動完成",
+              "to": "framework/angular/examples/rxjs"
+            },
+            {
+              "label": "來自服務的查詢選項",
+              "to": "framework/angular/examples/query-options-from-a-service"
+            },
+            {
+              "label": "開發工具嵌入式面板",
+              "to": "framework/angular/examples/devtools-panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "插件",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "persistQueryClient",
+              "to": "framework/react/plugins/persistQueryClient"
+            },
+            {
+              "label": "createSyncStoragePersister",
+              "to": "framework/react/plugins/createSyncStoragePersister"
+            },
+            {
+              "label": "createAsyncStoragePersister",
+              "to": "framework/react/plugins/createAsyncStoragePersister"
+            },
+            {
+              "label": "broadcastQueryClient (實驗性)",
+              "to": "framework/react/plugins/broadcastQueryClient"
+            },
+            {
+              "label": "createPersister (實驗性)",
+              "to": "framework/react/plugins/createPersister"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "broadcastQueryClient (實驗性)",
+              "to": "framework/solid/plugins/broadcastQueryClient"
+            },
+            {
+              "label": "createPersister (實驗性)",
+              "to": "framework/solid/plugins/createPersister"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "broadcastQueryClient (實驗性)",
+              "to": "framework/vue/plugins/broadcastQueryClient"
+            },
+            {
+              "label": "createPersister (實驗性)",
+              "to": "framework/vue/plugins/createPersister"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    "Google",
+    "Walmart",
+    "Facebook",
+    "PayPal",
+    "Amazon",
+    "American Express",
+    "Microsoft",
+    "Target",
+    "Ebay",
+    "Autodesk",
+    "CarFAX",
+    "Docusign",
+    "HP",
+    "MLB",
+    "Volvo",
+    "Ocado",
+    "UPC.ch",
+    "EFI.com",
+    "ReactBricks",
+    "Nozzle.io",
+    "Uber"
+  ]
+}
