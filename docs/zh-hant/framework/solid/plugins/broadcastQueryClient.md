@@ -1,0 +1,9 @@
+---
+source-updated-at: '2025-04-03T21:54:40.000Z'
+translation-updated-at: '2025-05-08T20:18:50.024Z'
+id: broadcastQueryClient
+title: broadcastQueryClient (Experimental)
+ref: docs/zh-hant/framework/react/plugins/broadcastQueryClient.md
+replace:
+  react-query: vue-query
+---
